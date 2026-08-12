@@ -1,0 +1,56 @@
+% Custom commands and shortcuts for LaTeX document
+% Add any custom commands as needed
+
+% Math commands
+\newcommand{\R}{\mathbb{R}}               % Real numbers
+\newcommand{\N}{\mathbb{N}}               % Natural numbers
+\newcommand{\Z}{\mathbb{Z}}               % Integers
+\newcommand{\Q}{\mathbb{Q}}               % Rational numbers
+\newcommand{\C}{\mathbb{C}}               % Complex numbers
+
+\newcommand{\norm}[1]{\left\lVert#1\right\rVert}  % Norm
+\newcommand{\abs}[1]{\left|#1\right|}            % Absolute value
+\newcommand{\inner}[2]{\left\langle#1,#2\right\rangle}  % Inner product
+
+\newcommand{\argmin}{\operatorname*{arg\,min}}    % Argmin
+\newcommand{\argmax}{\operatorname*{arg\,max}}    % Argmax
+\newcommand{\sgn}{\operatorname{sgn}}            % Sign function
+
+% Formatting commands
+\newcommand{\highlight}[1]{\colorbox{yellow}{#1}}   % Highlight text
+\newcommand{\todo}[1]{\textcolor{red}{[TODO: #1]}}  % TODO marker
+
+% Statistical commands
+\newcommand{\mean}{\bar{x}}                     % Mean
+\newcommand{\var}{\mathrm{Var}}                 % Variance
+\newcommand{\cov}{\mathrm{Cov}}                 % Covariance
+\newcommand{\corr}{\mathrm{Corr}}               % Correlation
+
+% Probability commands
+\newcommand{\Prob}{\mathbb{P}}                 % Probability
+\newcommand{\E}{\mathbb{E}}                    % Expectation
+
+% Algorithm shortcuts
+\newcommand{\IF}{\texttt{IF}}
+\newcommand{\THEN}{\texttt{THEN}}
+\newcommand{\ELSE}{\texttt{ELSE}}
+\newcommand{\FOR}{\texttt{FOR}}
+\newcommand{\WHILE}{\texttt{WHILE}}
+\newcommand{\DO}{\texttt{DO}}
+\newcommand{\RETURN}{\texttt{RETURN}}
+
+% Common math environments
+\newtheorem{theorem}{Theorem}
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{definition}[theorem]{Definition}
+\newtheorem{example}[theorem]{Example}
+\newtheorem{remark}[theorem]{Remark}
+
+% Custom enumeration
+\newenvironment{enumeratealph}
+{\begin{enumerate}
+    \setcounter{enumi}{\numexpr\value{enumi}-1\relax}
+    \renewcommand{\theenumi}{\alph{enumi}}}
+{\end{enumerate}}

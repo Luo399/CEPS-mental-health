@@ -1,0 +1,127 @@
+% crimson.sty — Crimson Beamer Theme
+%
+% A minimalist red-accent Beamer theme designed for academic paper
+% presentations (paper-reading talks, group meetings, reading seminars).
+%
+% Features:
+%   - Single crimson accent color on structural elements only
+%   - Gray!12 footer with colored text to avoid red-banner fatigue
+%   - Smoothbars outer theme with enlarged nav bar section labels
+%   - Auto-TOC hooks at every \section for orientation
+%   - Optional \sectionlead{...} to attach a one-line lead-in below each section TOC
+%
+% Author: Han (2026)
+% Released under the MIT License. See LICENSE at the skill root.
+
+\mode<presentation>
+
+\newif\ifbeamer@secheader
+\beamer@secheaderfalse
+
+%\DeclareOptionBeamer{secheader}{\beamer@secheadertrue}
+\ProcessOptionsBeamer
+
+\useoutertheme[footline=authorinstitutetitle,subsection=false]{smoothbars}
+\makeatletter % footer curpage/total-page pattern adapted from a
+              % tex.stackexchange discussion on beamer dresden theme:
+              % http://tex.stackexchange.com/questions/100838/
+\newcommand{\frameofframes}{/}
+\newcommand{\setframeofframes}[1]{\renewcommand{\frameofframes}{#1}}
+\setbeamertemplate{footline}
+  {%
+    \begin{beamercolorbox}[colsep=1.5pt]{upper separation line foot}
+    \end{beamercolorbox}
+    \begin{beamercolorbox}[ht=2.5ex,dp=1.125ex,%
+      leftskip=.3cm,rightskip=.3cm plus1fil]{author in head/foot}%
+      \leavevmode{\usebeamerfont{author in head/foot}\insertshortauthor}%
+      \hfill%
+      {\usebeamerfont{institute in head/foot}\usebeamercolor[fg]{institute in head/foot}\insertshortinstitute}%
+    \end{beamercolorbox}%
+    \begin{beamercolorbox}[ht=2.5ex,dp=1.125ex,%
+      leftskip=.3cm,rightskip=.3cm plus1fil]{title in head/foot}%
+      {\usebeamerfont{title in head/foot}\insertshorttitle}%
+      \hfill%
+      {\usebeamerfont{frame number}\usebeamercolor[fg]{frame number}\insertframenumber~\frameofframes~\inserttotalframenumber}
+    \end{beamercolorbox}%
+    \begin{beamercolorbox}[colsep=1.5pt]{lower separation line foot}
+    \end{beamercolorbox}
+  }
+\makeatother
+
+\useinnertheme{circles}
+
+\xdefinecolor{crimson}{RGB}{175,37,28}  %RGB#AF251C
+% Mute footer: light-gray background + crimson text to break the
+% three-layer red stack (nav bar + title bar + footer) and reduce visual
+% pressure.
+\setbeamercolor{footline}{bg=gray!12,fg=crimson}
+\setbeamercolor{author in head/foot}{bg=gray!12,fg=crimson}
+\setbeamercolor{institute in head/foot}{bg=gray!12,fg=crimson!80!black}
+\setbeamercolor{title in head/foot}{bg=gray!12,fg=crimson!80!black}
+\setbeamercolor{frame number}{bg=gray!12,fg=crimson}
+\setbeamercolor{upper separation line foot}{bg=crimson,fg=crimson}
+\setbeamercolor{lower separation line foot}{bg=gray!12,fg=gray!12}
+\setbeamercolor{frametitle}{bg=crimson,fg=white}
+\setbeamercolor{title}{bg=crimson}
+\setbeamerfont{frametitle}{size=\large}
+% Enlarge nav bar section names — default tiny is unreadable at projection
+% distance. scriptsize keeps it compact but legible.
+\setbeamerfont{section in head/foot}{size=\scriptsize}
+\setbeamerfont{subsection in head/foot}{size=\scriptsize}
+%\setbeamertemplate{navigation symbols}{}
+\setbeamertemplate{bibliography item}[text]
+\setbeamertemplate{caption}[numbered]
+
+\setbeamercolor{palette primary}{use=structure,fg=white,bg=structure.fg}
+\setbeamercolor{palette secondary}{use=structure,fg=white,bg=structure.fg!75!black}
+\setbeamercolor{palette tertiary}{use=structure,fg=white,bg=structure.fg!50!black}
+\setbeamercolor{palette quaternary}{fg=white,bg=structure.fg!50!black}
+\setbeamercolor{titlelike}{parent=palette primary}
+
+\setbeamercolor{block title}{bg=crimson,fg=white}
+\setbeamercolor*{block title example}{use={normal text,example text},bg=white,fg=crimson}
+% Pin \alert{} to crimson so punchline numbers stay visually consistent
+% with the theme instead of falling back to beamer's default red.
+\setbeamercolor{alerted text}{fg=crimson}
+\setbeamercolor{fine separation line}{}
+\setbeamercolor{item projected}{fg=white}
+\setbeamercolor{palette sidebar primary}{use=normal text,fg=normal text.fg}
+\setbeamercolor{palette sidebar quaternary}{use=structure,fg=structure.fg}
+\setbeamercolor{palette sidebar secondary}{use=structure,fg=structure.fg}
+\setbeamercolor{palette sidebar tertiary}{use=normal text,fg=normal text.fg}
+\setbeamercolor{section in sidebar}{fg=brown}
+\setbeamercolor{section in sidebar shaded}{fg=grey}
+\setbeamercolor{separation line}{}
+\setbeamercolor{sidebar}{bg=crimson}
+\setbeamercolor{sidebar}{parent=palette primary}
+\setbeamercolor{structure}{fg=crimson}
+\setbeamercolor{subsection in sidebar}{fg=brown}
+\setbeamercolor{subsection in sidebar shaded}{fg=grey}
+% Optional per-section lead-in. Usage in main.tex:
+%   \sectionlead{本节要回答：如果火星曾有海洋，它应该在地形上留下什么？}
+%   \section{研究背景与问题}
+% The lead-in renders as italic crimson-colored text below the section TOC,
+% then clears itself so the next section can define its own (or omit).
+\makeatletter
+\newcommand{\@currentsectionlead}{}
+\newcommand{\sectionlead}[1]{\renewcommand{\@currentsectionlead}{#1}}
+\AtBeginSection[]{
+	\begin{frame}
+		\tableofcontents[sectionstyle=show/shaded,subsectionstyle=show/shaded/hide,subsubsectionstyle=show/shaded/hide]
+		\ifx\@currentsectionlead\@empty\else
+			\vfill
+			{\centering\parbox{0.82\textwidth}{\centering\small\color{crimson!85!black}\itshape\@currentsectionlead}\par}
+			\vspace{0.3cm}
+			\global\let\@currentsectionlead\@empty
+		\fi
+	\end{frame}
+}
+\AtBeginSubsection[]{
+	\begin{frame}
+		\tableofcontents[sectionstyle=show/shaded,subsectionstyle=show/shaded/hide,subsubsectionstyle=show/shaded/hide]
+	\end{frame}
+}
+\makeatother
+
+\mode
+<all>

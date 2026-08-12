@@ -1,0 +1,599 @@
+================================================================================
+经济学论文选题报告参考文献列表
+================================================================================
+总计: 200 篇文献 (2021-2026年)
+================================================================================
+
+文献分类统计:
+  人工智能与经济学: 147篇
+  气候变化与绿色经济: 2篇
+  数字化转型: 27篇
+  行为经济学: 10篇
+  健康经济学: 0篇
+  其他: 14篇
+================================================================================
+
+高引用文献 (引用次数 > 100):
+--------------------------------------------------------------------------------
+• Artificial Intelligence and Management: The Automation–Augmentation Paradox
+  Authors: Sebastian Raisch, Sebastian Krakowski
+  Journal: Academy of Management Review, 2021, Citations: 1719
+
+• Climate Change Concerns and the Performance of Green vs. Brown Stocks
+  Authors: David Ardia, Keven Bluteau, Kris Boudt
+  Journal: Management Science, 2022, Citations: 559
+
+• Artificial intelligence and the changing sources of competitive advantage
+  Authors: Sebastian Krakowski, Johannes Luger, Sebastian Raisch
+  Journal: Strategic Management Journal, 2022, Citations: 472
+
+• Artificial intelligence and industrial innovation: Evidence from German firm-level data
+  Authors: Christian Rammer, Gastón P. Fernández, Dirk Czarnitzki
+  Journal: Research Policy, 2022, Citations: 400
+
+• Influencer Marketing Effectiveness
+  Authors: Fine F. Leung, Flora F. Gu, Yiwei Li
+  Journal: Journal of Marketing, 2022, Citations: 398
+
+• Managing Artificial Intelligence
+  Authors: Nicholas Berente, Bin Gu, Jan Recker
+  Journal: MIS Quarterly, 2021, Citations: 378
+
+• Innovation, growth and the transition to net-zero emissions
+  Authors: Nicholas Stern, Anna Valero
+  Journal: Research Policy, 2021, Citations: 330
+
+• Finding Goldilocks Influencers: How Follower Count Drives Social Media Engagement
+  Authors: Simone Wies, Alexander Bleier, Alexander Edeling
+  Journal: Journal of Marketing, 2022, Citations: 258
+
+• Will Humans-in-the-Loop Become Borgs? Merits and Pitfalls of Working with AI
+  Authors: Andreas Fügener, Jörn Grahl, Alok Gupta
+  Journal: MIS Quarterly, 2021, Citations: 253
+
+• Measure Twice, Cut Once: Entrepreneurial Ecosystem Metrics
+  Authors: Jip Leendertse, Mirella Schrijvers, Erik Stam
+  Journal: Research Policy, 2021, Citations: 249
+
+• Technology sovereignty as an emerging frame for innovation policy. Defining rationales, ends and means
+  Authors: Jakob Edler, Knut Blind, Henning Kroll
+  Journal: Research Policy, 2023, Citations: 235
+
+• Financing sustainable entrepreneurship: ESG measurement, valuation, and performance
+  Authors: Sasan Mansouri, Paul P. Momtaz
+  Journal: Journal of Business Venturing, 2022, Citations: 222
+
+• Corporate commitment to climate change: The effect of eco-innovation and climate governance
+  Authors: Khaldoon Albitar, Habiba Al‐Shaer, Yang Stephanie Liu
+  Journal: Research Policy, 2022, Citations: 222
+
+• Can public R&amp;D subsidy facilitate firms’ exploratory innovation? The heterogeneous effects between central and local subsidy programs
+  Authors: Yuchen Gao, Yimei Hu, Xielin Liu
+  Journal: Research Policy, 2021, Citations: 207
+
+• Corporate Strategy and the Theory of the Firm in the Digital Age
+  Authors: Markus Menz, Sven Kunisch, Julian Birkinshaw
+  Journal: Journal of Management Studies, 2021, Citations: 206
+
+• Grand Societal Challenges and Responsible Innovation
+  Authors: Christian Voegtlin, Andreas Georg Scherer, Günter K. Stahl
+  Journal: Journal of Management Studies, 2021, Citations: 203
+
+• China's catching-up in artificial intelligence seen as a co-evolution of corporate and national innovation systems
+  Authors: Bengt‐Åke Lundvall, Cecilia Rikap
+  Journal: Research Policy, 2021, Citations: 202
+
+• Learning from Data: An Empirics-First Approach to Relevant Knowledge Generation
+  Authors: Peter N. Golder, Marnik G. Dekimpe, Jake An
+  Journal: Journal of Marketing, 2022, Citations: 189
+
+• Smart Working: Work Flexibility Without Constraints
+  Authors: Marta Angelici, Paola Profeta
+  Journal: Management Science, 2023, Citations: 174
+
+• <scp>CSR</scp> decoupling within business groups and the risk of perceived greenwashing
+  Authors: Joel Bothello, Ioannis Ioannou, Vlad‐Andrei Porumb
+  Journal: Strategic Management Journal, 2023, Citations: 169
+
+• Real-Time Brand Reputation Tracking Using Social Media
+  Authors: Roland T. Rust, William Rand, Ming‐Hui Huang
+  Journal: Journal of Marketing, 2021, Citations: 162
+
+• Externalities and complementarities in platforms and ecosystems: From structural solutions to endogenous failures
+  Authors: Michael G. Jacobides, Carmelo Cennamo, Annabelle Gawer
+  Journal: Research Policy, 2023, Citations: 161
+
+• Privacy and Market Concentration: Intended and Unintended Consequences of the GDPR
+  Authors: Garrett Johnson, Scott K. Shriver, Samuel Goldberg
+  Journal: Management Science, 2023, Citations: 160
+
+• What is the price of a skill? The value of complementarity
+  Authors: Fabian Stephany, Ole Teutloff
+  Journal: Research Policy, 2023, Citations: 157
+
+• A Model of Cryptocurrencies
+  Authors: Michael Sockin, Wei Xiong
+  Journal: Management Science, 2023, Citations: 144
+
+• Why emerging supply chain technologies initially disappoint: Blockchain, IoT, and AI
+  Authors: ManMohan S. Sodhi, Zahra Seyedghorban, Hossein Tahernejad
+  Journal: Production and Operations Management, 2022, Citations: 143
+
+• Conducting Research in Marketing with Quasi-Experiments
+  Authors: Avi Goldfarb, Catherine E. Tucker, Yanwen Wang
+  Journal: Journal of Marketing, 2022, Citations: 137
+
+• “Just Words? Just Speeches?” On the Economic Value of Charismatic Leadership
+  Authors: John Antonakis, Giovanna D’Adda, Roberto A. Weber
+  Journal: Management Science, 2021, Citations: 132
+
+• Same data, different conclusions: Radical dispersion in empirical results when independent analysts operationalize and test the same hypothesis
+  Authors: Martin Schweinsberg, Michael B. Feldman, Nicola Staub
+  Journal: Organizational Behavior and Human Decision Processes, 2021, Citations: 132
+
+• When Blockchain Creates Shareholder Value: Empirical Evidence from International Firm Announcements
+  Authors: Maximilian Klöckner, Christoph G. Schmidt, Stephan M. Wagner
+  Journal: Production and Operations Management, 2021, Citations: 124
+
+• Organizational drivers of innovation: The role of workforce agility
+  Authors: Chiara Franco, Fabio Landini
+  Journal: Research Policy, 2021, Citations: 116
+
+• Focusing the ecosystem lens on innovation studies
+  Authors: Carliss Y. Baldwin, Marcel Bogers, Rahul Kapoor
+  Journal: Research Policy, 2024, Citations: 115
+
+• Corporate Social Responsibility Research in the <i>Journal of Management Studies</i>: A Shift from a Business‐Centric to a Society‐Centric Focus
+  Authors: Christopher Wickert
+  Journal: Journal of Management Studies, 2021, Citations: 114
+
+• Revenue Generation Through Influencer Marketing
+  Authors: Maximilian Beichert, Andreas Bayerl, Jacob Goldenberg
+  Journal: Journal of Marketing, 2023, Citations: 113
+
+• Re-examining path dependence in the digital age: The evolution of connected car business models
+  Authors: René Bohnsack, Hannes Kurtz, André Hanelt
+  Journal: Research Policy, 2021, Citations: 112
+
+• Is innovation (increasingly) concentrated in large cities? An international comparison
+  Authors: Michael Fritsch, Michael Wyrwich
+  Journal: Research Policy, 2021, Citations: 111
+
+• Stimulating a more Circular Economy through Public Procurement: Roles and dynamics of intermediation
+  Authors: Anne Rainville
+  Journal: Research Policy, 2021, Citations: 111
+
+• Digital Privacy
+  Authors: Itay P. Fainmesser, Andrea Galeotti, Ruslan Momot
+  Journal: Management Science, 2022, Citations: 110
+
+• Economics of Permissioned Blockchain Adoption
+  Authors: Garud Iyengar, Fahad Saleh, Jay Sethuraman
+  Journal: Management Science, 2022, Citations: 107
+
+• Population ageing, labour market rigidity and corporate innovation: Evidence from China
+  Authors: Youchao Tan, Xiumei Liu, Hanwen Sun
+  Journal: Research Policy, 2021, Citations: 104
+
+• The policy implications of economic complexity
+  Authors: César A. Hidalgo
+  Journal: Research Policy, 2023, Citations: 104
+
+• Optimal Portfolio Choice with Estimation Risk: No Risk-Free Asset Case
+  Authors: Raymond Kan, Xiaolu Wang, Guofu Zhou
+  Journal: Management Science, 2021, Citations: 103
+
+• How High-Arousal Language Shapes Micro- Versus Macro-Influencers’ Impact
+  Authors: Giovanni Luca Cascio Rizzo, Francisco Villarroel Ordenes, Rumen Pozharliev
+  Journal: Journal of Marketing, 2023, Citations: 103
+
+• Beyond Primacy: A Stakeholder Theory of Corporate Governance
+  Authors: J.W. Stoelhorst, Pushpika Vishwanathan
+  Journal: Academy of Management Review, 2022, Citations: 101
+
+• Innovation vs. standardization: The conjoint effects of eco-innovation and environmental management systems on environmental performance
+  Authors: Jesús Valero‐Gil, Jordi Surroca, Josep A. Tribó
+  Journal: Research Policy, 2023, Citations: 101
+
+所有文献列表:
+--------------------------------------------------------------------------------
+  1. Artificial Intelligence and Management: The Automation–Augmentation Paradox
+     Sebastian Raisch, Sebastian Krakowski (2021) - 1719 citations
+  2. Climate Change Concerns and the Performance of Green vs. Brown Stocks
+     David Ardia, Keven Bluteau (2022) - 559 citations
+  3. Artificial intelligence and the changing sources of competitive advantage
+     Sebastian Krakowski, Johannes Luger (2022) - 472 citations
+  4. Artificial intelligence and industrial innovation: Evidence from German firm-level data
+     Christian Rammer, Gastón P. Fernández (2022) - 400 citations
+  5. Influencer Marketing Effectiveness
+     Fine F. Leung, Flora F. Gu (2022) - 398 citations
+  6. Managing Artificial Intelligence
+     Nicholas Berente, Bin Gu (2021) - 378 citations
+  7. Innovation, growth and the transition to net-zero emissions
+     Nicholas Stern, Anna Valero (2021) - 330 citations
+  8. Finding Goldilocks Influencers: How Follower Count Drives Social Media Engagement
+     Simone Wies, Alexander Bleier (2022) - 258 citations
+  9. Will Humans-in-the-Loop Become Borgs? Merits and Pitfalls of Working with AI
+     Andreas Fügener, Jörn Grahl (2021) - 253 citations
+ 10. Measure Twice, Cut Once: Entrepreneurial Ecosystem Metrics
+     Jip Leendertse, Mirella Schrijvers (2021) - 249 citations
+ 11. Technology sovereignty as an emerging frame for innovation policy. Defining rationales, ends and means
+     Jakob Edler, Knut Blind (2023) - 235 citations
+ 12. Financing sustainable entrepreneurship: ESG measurement, valuation, and performance
+     Sasan Mansouri, Paul P. Momtaz (2022) - 222 citations
+ 13. Corporate commitment to climate change: The effect of eco-innovation and climate governance
+     Khaldoon Albitar, Habiba Al‐Shaer (2022) - 222 citations
+ 14. Can public R&amp;D subsidy facilitate firms’ exploratory innovation? The heterogeneous effects between central and local subsidy programs
+     Yuchen Gao, Yimei Hu (2021) - 207 citations
+ 15. Corporate Strategy and the Theory of the Firm in the Digital Age
+     Markus Menz, Sven Kunisch (2021) - 206 citations
+ 16. Grand Societal Challenges and Responsible Innovation
+     Christian Voegtlin, Andreas Georg Scherer (2021) - 203 citations
+ 17. China's catching-up in artificial intelligence seen as a co-evolution of corporate and national innovation systems
+     Bengt‐Åke Lundvall, Cecilia Rikap (2021) - 202 citations
+ 18. Learning from Data: An Empirics-First Approach to Relevant Knowledge Generation
+     Peter N. Golder, Marnik G. Dekimpe (2022) - 189 citations
+ 19. Smart Working: Work Flexibility Without Constraints
+     Marta Angelici, Paola Profeta (2023) - 174 citations
+ 20. <scp>CSR</scp> decoupling within business groups and the risk of perceived greenwashing
+     Joel Bothello, Ioannis Ioannou (2023) - 169 citations
+ 21. Real-Time Brand Reputation Tracking Using Social Media
+     Roland T. Rust, William Rand (2021) - 162 citations
+ 22. Externalities and complementarities in platforms and ecosystems: From structural solutions to endogenous failures
+     Michael G. Jacobides, Carmelo Cennamo (2023) - 161 citations
+ 23. Privacy and Market Concentration: Intended and Unintended Consequences of the GDPR
+     Garrett Johnson, Scott K. Shriver (2023) - 160 citations
+ 24. What is the price of a skill? The value of complementarity
+     Fabian Stephany, Ole Teutloff (2023) - 157 citations
+ 25. A Model of Cryptocurrencies
+     Michael Sockin, Wei Xiong (2023) - 144 citations
+ 26. Why emerging supply chain technologies initially disappoint: Blockchain, IoT, and AI
+     ManMohan S. Sodhi, Zahra Seyedghorban (2022) - 143 citations
+ 27. Conducting Research in Marketing with Quasi-Experiments
+     Avi Goldfarb, Catherine E. Tucker (2022) - 137 citations
+ 28. “Just Words? Just Speeches?” On the Economic Value of Charismatic Leadership
+     John Antonakis, Giovanna D’Adda (2021) - 132 citations
+ 29. Same data, different conclusions: Radical dispersion in empirical results when independent analysts operationalize and test the same hypothesis
+     Martin Schweinsberg, Michael B. Feldman (2021) - 132 citations
+ 30. When Blockchain Creates Shareholder Value: Empirical Evidence from International Firm Announcements
+     Maximilian Klöckner, Christoph G. Schmidt (2021) - 124 citations
+ 31. Organizational drivers of innovation: The role of workforce agility
+     Chiara Franco, Fabio Landini (2021) - 116 citations
+ 32. Focusing the ecosystem lens on innovation studies
+     Carliss Y. Baldwin, Marcel Bogers (2024) - 115 citations
+ 33. Corporate Social Responsibility Research in the <i>Journal of Management Studies</i>: A Shift from a Business‐Centric to a Society‐Centric Focus
+     Christopher Wickert (2021) - 114 citations
+ 34. Revenue Generation Through Influencer Marketing
+     Maximilian Beichert, Andreas Bayerl (2023) - 113 citations
+ 35. Re-examining path dependence in the digital age: The evolution of connected car business models
+     René Bohnsack, Hannes Kurtz (2021) - 112 citations
+ 36. Is innovation (increasingly) concentrated in large cities? An international comparison
+     Michael Fritsch, Michael Wyrwich (2021) - 111 citations
+ 37. Stimulating a more Circular Economy through Public Procurement: Roles and dynamics of intermediation
+     Anne Rainville (2021) - 111 citations
+ 38. Digital Privacy
+     Itay P. Fainmesser, Andrea Galeotti (2022) - 110 citations
+ 39. Economics of Permissioned Blockchain Adoption
+     Garud Iyengar, Fahad Saleh (2022) - 107 citations
+ 40. Population ageing, labour market rigidity and corporate innovation: Evidence from China
+     Youchao Tan, Xiumei Liu (2021) - 104 citations
+ 41. The policy implications of economic complexity
+     César A. Hidalgo (2023) - 104 citations
+ 42. Optimal Portfolio Choice with Estimation Risk: No Risk-Free Asset Case
+     Raymond Kan, Xiaolu Wang (2021) - 103 citations
+ 43. How High-Arousal Language Shapes Micro- Versus Macro-Influencers’ Impact
+     Giovanni Luca Cascio Rizzo, Francisco Villarroel Ordenes (2023) - 103 citations
+ 44. Beyond Primacy: A Stakeholder Theory of Corporate Governance
+     J.W. Stoelhorst, Pushpika Vishwanathan (2022) - 101 citations
+ 45. Innovation vs. standardization: The conjoint effects of eco-innovation and environmental management systems on environmental performance
+     Jesús Valero‐Gil, Jordi Surroca (2023) - 101 citations
+ 46. Hate Trumps Love: The Impact of Political Polarization on Social Preferences
+     Eugen Dimant (2023) - 100 citations
+ 47. Do Board Gender Quotas Matter? Selection, Performance, and Stock Market Effects
+     Giulia Ferrari, Valeria Ferraro (2021) - 99 citations
+ 48. Monetary Incentives and Knowledge Spillover: Evidence from a Natural Experiment
+     Jing Wang, Gen Li (2021) - 99 citations
+ 49. Cascading Sustainability in Multi‐tier Supply Chains: When Do Chinese Suppliers Adopt Sustainable Procurement?
+     Miriam Wilhelm, Verónica H. Villena (2021) - 98 citations
+ 50. Organizational Goals, Outcomes, and the Assessment of Performance: Reconceptualizing Success in Management Studies
+     Ruth V. Aguilera, Alfredo De Massis (2023) - 98 citations
+ 51. Language and Consumer Dishonesty: A Self-Diagnosticity Theory
+     Phyliss Jia Gai, Stefano Puntoni (2021) - 97 citations
+ 52. The Demand for, and Avoidance of, Information
+     Russell Golman, George Loewenstein (2021) - 97 citations
+ 53. The future of the web? The coordination and <scp>early‐stage</scp> growth of decentralized platforms
+     Ying‐Ying Hsieh, Jean‐Philippe Vergne (2022) - 95 citations
+ 54. Scaling‐up: Building, Leading and Sustaining Rapid Growth Over Time
+     Justin J.P. Jansen, Ciarán Heavey (2023) - 92 citations
+ 55. Digital “x”—Charting a Path for Digital-Themed Research
+     Abayomi Baiyere, Varun Grover (2023) - 92 citations
+ 56. Epidemic effects in the diffusion of emerging digital technologies: evidence from artificial intelligence adoption
+     Johannes Dahlke, Mathias Beck (2023) - 92 citations
+ 57. Innovation Outcomes of Digitally Enabled Collaborative Problemistic Search Capability
+     Prasanna Karhade, John Qi Dong (2021) - 90 citations
+ 58. Standing out from the crowd: Dedicated institutional investors and strategy uniqueness
+     Jana Oehmichen, Sebastian Firk (2021) - 90 citations
+ 59. Applying Coleman’s Boat in Management Research: Opportunities and Challenges in Bridging Macro and Micro Theory
+     Amanda P. Cowen, Floor Rink (2022) - 88 citations
+ 60. Just‐in‐time for supply chains in turbulent times
+     Thomas Y. Choi, Torbjørn H. Netland (2023) - 88 citations
+ 61. The invention performance implications of coopetition: How technological, geographical, and product market overlaps shape learning and competitive tension in R&amp;D alliances
+     Steffen Runge, Christian Schwens (2021) - 86 citations
+ 62. Synergy Evaluation in Mergers and Acquisitions: An Attention‐Based View
+     Florian Bauer, Martin Friesl (2022) - 86 citations
+ 63. Calling and the Good Life: A Meta-Analysis and Theoretical Extension
+     Shoshana Dobrow Riza, Hannah Weisman (2023) - 84 citations
+ 64. Entrepreneurial Visions as Rhetorical History: A Diegetic Narrative Model of Stakeholder Enrollment
+     Roy Suddaby, Trevor Lyle Israelsen (2021) - 82 citations
+ 65. How Professionals Adapt to Artificial Intelligence: The Role of Intertwined Boundary Work
+     James Faulconbridge, Atif Sarwar (2023) - 80 citations
+ 66. Games of supplier encroachment channel selection and e‐tailer's information sharing
+     Yanli Tang, Suresh Sethi (2023) - 80 citations
+ 67. Dealing with Complexity in Design Science Research: A Methodology Using Design Echelons
+     Tuure Tuunanen, Robert Winter (2024) - 80 citations
+ 68. Moral Universalism: Measurement and Economic Relevance
+     Benjamin Enke, Ricardo Rodríguez-Padilla (2021) - 79 citations
+ 69. Resource Orchestration and Scaling‐up of Platform‐Based Entrepreneurial Firms: The Logic of Dialectic Tuning
+     Jing Zeng, Yunlu Yang (2022) - 79 citations
+ 70. Towards an integrated framework for evaluating transformative innovation policy
+     Carolina Resende Haddad, Anna Bergek (2022) - 79 citations
+ 71. The Digital Undertow: How the Corollary Effects of Digital Transformation Affect Industry Standards
+     Susan Scott, Wanda J. Orlikowski (2021) - 78 citations
+ 72. Training with AI: Evidence from chess computers
+     Fabian Gaessler, Henning Piezunka (2023) - 78 citations
+ 73. Strategy Can No Longer Ignore Planetary Boundaries: A Call for Tackling Strategy's Ecological Fallacy
+     Pratima Bansal, Rodolphe Durand (2024) - 78 citations
+ 74. A dynamic multi-sector analysis of technological catch-up: The impact of technology cycle times, knowledge base complexity and variety
+     Alessandro Rosiello, Ali Maleki (2021) - 77 citations
+ 75. On the trajectory of discrimination: A meta-analysis and forecasting survey capturing 44 years of field experiments on gender and hiring decisions
+     Michael Schaerer, Christilene du Plessis (2023) - 76 citations
+ 76. Value, rent, and profit: A stakeholder resource‐based theory
+     J.W. Stoelhorst (2021) - 74 citations
+ 77. De-Crypto-ing Signals in Initial Coin Offerings: Evidence of Rational Token Retention
+     Tetiana Davydiuk, Deeksha Gupta (2023) - 73 citations
+ 78. On-Site Inspecting Zombie Lending
+     Diana Bonfim, Geraldo Cerqueiro (2022) - 72 citations
+ 79. Technological Frames in the Digital Age: Theory, Measurement Instrument, and Future Research Areas
+     Patrick Spieth, Tobias Röth (2021) - 72 citations
+ 80. Dynamic Capabilities and MNE Global Strategy: A Systematic Literature Review‐Based Novel Conceptual Framework
+     Christos Pitelis, David J. Teece (2023) - 72 citations
+ 81. A New Measurement Conception for the ‘Doing-Using-Interacting’ Mode of Innovation
+     Harm Alhusen, Tatjana Bennat (2021) - 71 citations
+ 82. How do new use environments influence a technology's knowledge trajectory? A patent citation network analysis of lithium-ion battery technology
+     Abhishek Malhotra, Huiting Zhang (2021) - 71 citations
+ 83. Missing Women in Tech: The Labor Market for Highly Skilled Software Engineers
+     Raviv Murciano-Goroff (2021) - 71 citations
+ 84. From a shareholder to stakeholder orientation: Evidence from the analyses of <scp>CEO</scp> dismissal in large U.S. firms
+     Shoonchul Shin, Juyoung Lee (2021) - 71 citations
+ 85. Dynamic capabilities and governance: An empirical investigation of financial performance of the higher education sector
+     Sohvi Heaton, David J. Teece (2022) - 71 citations
+ 86. The Conceptual Flaws of Decentralized Automated Market Making
+     Andreas Park (2023) - 71 citations
+ 87. Stop and go, where is my flow? How and when daily aversive morning commutes are negatively related to employees’ motivational states and behavior at work.
+     Fabiola H. Gerpott, Wladislaw Rivkin (2021) - 70 citations
+ 88. Renewable Power and Electricity Prices: The Impact of Forward Markets
+     Heikki Peura, Derek W. Bunn (2021) - 69 citations
+ 89. Corporate social counterpositioning: How attributes of social issues influence competitive response
+     Aharon Cohen Mohliver, Donal Crilly (2022) - 68 citations
+ 90. Creating Responsible Subjects: The Role of Mediated Affective Encounters
+     Domen Bajde, Pilar Rojas Gaviria (2021) - 67 citations
+ 91. Innovation and inter-city knowledge spillovers: Social, geographical, and technological connectedness and psychological openness
+     Martin Obschonka, Sam Tavassoli (2023) - 67 citations
+ 92. Do R&amp;D investments in weak IPR countries destroy market value? The role of internal linkages
+     René Belderbos, Jinhyuck Park (2021) - 66 citations
+ 93. Interdisciplinary research and the societal visibility of science: The advantages of spanning multiple and distant scientific fields
+     Pablo D’Este, Nicolás Robinson‐García (2022) - 65 citations
+ 94. The S-shaped relationship between open innovation and financial performance: A longitudinal perspective using a novel text-based measure
+     Thomas Schäper, Christopher Jung (2023) - 65 citations
+ 95. Superstar Exclusivity in Two-Sided Markets
+     Elias Carroni, Leonardo Madio (2023) - 64 citations
+ 96. Online Reviews and Information Overload: The Role of Selective, Parsimonious, and Concordant Top Reviews
+     Wael Jabr, Mohammad Saifur Rahman (2022) - 64 citations
+ 97. Impact of Social Interactions on Duopoly Competition with Quality Considerations
+     Xin Geng, Xiaomeng Guo (2021) - 63 citations
+ 98. Board experiential diversity and corporate radical innovation
+     Aurora Genin, Wenting Ma (2023) - 62 citations
+ 99. Position and Differentiation of Firms in Technology Space
+     Sam Arts, Bruno Cassiman (2023) - 62 citations
+100. A scientific approach to entrepreneurial decision‐making: Large‐scale replication and extension
+     Arnaldo Camuffo, Alfonso Gambardella (2024) - 62 citations
+101. A bird in the hand is worth two in the bush: Technology search strategies and competition due to import penetration
+     Raffaele Morandi Stagni, Andréa Fosfuri (2021) - 61 citations
+102. Align or perish: Social enterprise network orchestration in Sub-Saharan Africa
+     Christian Busch, Harry G. Barkema (2022) - 61 citations
+103. Technology transfer from national/federal labs and public research institutes: Managerial and policy implications
+     Donald S. Siegel, Marcel Bogers (2022) - 61 citations
+104. Physical climate change exposure and firms' adaptation strategy
+     Xia Li (2024) - 61 citations
+105. Indoor Air Quality and Strategic Decision Making
+     Steffen Künn, Juan Palacios (2023) - 60 citations
+106. Tokenomics: When Tokens Beat Equity
+     Katya Malinova, Andreas Park (2023) - 60 citations
+107. The role of procedural rationality in debiasing acquisition decisions of overconfident CEOs
+     Stevo Pavićević, Thomas Keil (2021) - 59 citations
+108. Aspiration formation and attention rules
+     Luca Berchicci, Murat Tarakci (2021) - 59 citations
+109. Selecting Innovation Projects: Do Middle and Senior Managers Differ When It Comes to Radical Innovation?
+     Ralf Wilden, Nidthida Lin (2022) - 59 citations
+110. Personalized Pricing and Distribution Strategies
+     Bruno Jullien, Markus Reisinger (2022) - 58 citations
+111. The Past and Future of Gender Research in Marketing: Paradigms, Stances, and Value-Based Commitments
+     Lisa Peñaloza, Andrea Prothero (2023) - 58 citations
+112. Communication in the Gig Economy: Buying and Selling in Online Freelance Marketplaces
+     Stephan Ludwig, Dennis Herhausen (2021) - 57 citations
+113. Wolf Pack Activism
+     Alon Brav, Amil Dasgupta (2021) - 57 citations
+114. Algorithmic Routines and Dynamic Inertia: How Organizations Avoid Adapting to Changes in the Environment
+     Omid Omidvar, Mehdi Safavi (2022) - 57 citations
+115. Preparedness with a system integrating inventory, capacity, and capability for future pandemics and other disasters
+     Musen Kingsley Li, ManMohan S. Sodhi (2022) - 57 citations
+116. Institutional Investor Attention, Agency Conflicts, and the Cost of Debt
+     Sadok El Ghoul, Omrane Guedhami (2022) - 57 citations
+117. Vaccine technology transfer in a global health crisis: Actors, capabilities, and institutions
+     Elize Massard da Fonseca, Kenneth C. Shadlen (2023) - 57 citations
+118. An Integrative Perspective on Algorithm Aversion and Appreciation in Decision-Making
+     Ekaterina Jussupow, Izak Benbasat (2024) - 57 citations
+119. Capturing conversations in entrepreneurial ecosystems
+     Augusto Rocha, Ross Brown (2021) - 56 citations
+120. When All Products Are Digital: Complexity and Intangible Value in the Ecosystem of Digitizing Firms
+     Pouya Rahmati, Ali Tafti (2021) - 56 citations
+121. The ability of European regions to diversify in renewable energies: The role of technological relatedness
+     Rosina Moreno, Diego B. Ocampo-Corrales (2022) - 56 citations
+122. Categories and narratives as sources of distinctiveness: Cultural entrepreneurship within and across categories
+     Karl Taeuscher, Eric Yanfei Zhao (2022) - 56 citations
+123. Complex Disclosure
+     Ginger Zhe Jin, Michael Luca (2021) - 55 citations
+124. Reconceptualising innovation failure
+     David Baxter, Paul Trott (2023) - 55 citations
+125. Are they coming for us? Industrial robots and the mental health of workers
+     Ana Lucia Abeliansky, Matthias Beulmann (2024) - 54 citations
+126. Employees' entrepreneurial human capital and firm performance
+     Pontus Braunerhjelm, Emma Lappi (2022) - 54 citations
+127. Global Disaster Risk Matters
+     Jian Chen, Jiaquan Yao (2022) - 54 citations
+128. Policy mixes for business model innovation: The case of off-grid energy for sustainable development in sub-Saharan Africa
+     Philipp A. Trotter, Aoife Brophy Haney (2022) - 54 citations
+129. Temporal Orientation and Corporate Social Responsibility: Global Evidence
+     Jongmoo Jay Choi, Jimi Kim (2022) - 54 citations
+130. Big data and dynamic capabilities in the digital revolution: The hidden role of source variety
+     Mattia Pedota (2023) - 54 citations
+131. The Impact of Input and Output Farm Subsidies on Farmer Welfare, Income Disparity, and Consumer Surplus
+     Christopher S. Tang, Yulan Wang (2023) - 54 citations
+132. Lifestyle Entrepreneurship: Literature Review and Future Research Agenda
+     Diana Ivanycheva, William S. Schulze (2023) - 54 citations
+133. Kidney Exchange: An Operations Perspective
+     Itai Ashlagi, Alvin E. Roth (2021) - 53 citations
+134. Resolving information asymmetries in financing new product development: The case of reward-based crowdfunding
+     Ahmed Sewaid, Miguel Ángel García Cestona (2021) - 53 citations
+135. Resource origins and search
+     Teppo Felin, Stuart Kauffman (2021) - 53 citations
+136. Optimal distinctiveness across revenue models: Performance effects of differentiation of paid and free products in a mobile app market
+     Joey van Angeren, Govert Vroom (2022) - 53 citations
+137. Social Reference Points and Risk Taking
+     Frederik Schwerter (2023) - 53 citations
+138. Strategic Decision Making in the Digital Age: Expert Sentiment and Corporate Capital Allocation
+     Steffen Nauhaus, Johannes Luger (2021) - 52 citations
+139. Family Control, Political Risk and Employment Security: A Cross‐National Study
+     Luis R. Gómez‐Mejía, María J. Sánchez‐Bueno (2023) - 52 citations
+140. Do firms profit from patent litigation? The contingent roles of diversification and intangible assets
+     Mario Kafouros, Murod Aliyev (2021) - 51 citations
+141. How much does the firm's alliance network matter?
+     Pankaj Kumar, Xiaojin Liu (2022) - 51 citations
+142. Getting Away with It (Or Not): The Social Control of Organizational Deviance
+     Alessandro Piazza, Patrick Bergemann (2022) - 51 citations
+143. Advances in Blockchain and Crypto Economics
+     Bruno Biais, Agostino Capponi (2023) - 51 citations
+144. Social Media and News: Content Bundling and News Quality
+     Alexandre de Cornière, Miklós Sárváry (2022) - 50 citations
+145. How to Sell a Data Set? Pricing Policies for Data Monetization
+     Sameer Mehta, Milind Dawande (2021) - 50 citations
+146. “We Can’t Compete on Human Rights”: Creating Market-Protected Spaces to Institutionalize the Emerging Logic of Responsible Management
+     Elke Schuessler, Nora Lohmeyer (2022) - 50 citations
+147. Technological competition and patent strategy: Protecting innovation, preempting rivals and defending the freedom to operate
+     Riccardo Cappelli, Marco Corsino (2023) - 50 citations
+148. Entrepreneurial learning and strategic foresight
+     Aticus Peterson, Andy Wu (2021) - 49 citations
+149. Institutional protection of minority employees and entrepreneurship: Evidence from the LGBT Employment Non‐Discrimination Acts
+     Raffaele Conti, Olenka Kacperczyk (2021) - 49 citations
+150. Mentorship and creativity: Effects of mentor creativity and mentoring style
+     Jian Wang, Sotaro Shibayama (2021) - 49 citations
+151. The Management of Socio‐Political Issues and Environments: Toward a Research Agenda for Corporate Socio‐Political Engagement
+     Pei Sun, Jonathan P. Doh (2023) - 49 citations
+152. Global value chains and domestic innovation
+     Keiko Ito, Kenta Ikeuchi (2023) - 48 citations
+153. No guts, no glory? How risk-taking shapes dominance, prestige, and leadership endorsement.
+     Gerben A. van Kleef, Marc W. Heerdink (2021) - 48 citations
+154. International Management as Management of Diversity: Reconceptualizing Distance as Diversity
+     Fabrice Lumineau, Marvin Hanisch (2021) - 48 citations
+155. Racial Oppression and Racial Projects in Consumer Markets: A Racial Formation Theory Approach
+     David Crockett (2021) - 48 citations
+156. Cognitive Diagram Understanding and Task Performance in Systems Analysis and Design
+     Monika Malinova, Jan Mendling (2021) - 48 citations
+157. Linking Experience to Intuition and Cognitive Versatility in New Venture Ideation: A Dual‐Process Perspective
+     Leonie Baldacchino, Deniz Ucbasaran (2022) - 48 citations
+158. The <scp>knowledge‐incentive</scp> tradeoff: Understanding the relationship between research and development decentralization and innovation
+     John Eklund (2022) - 48 citations
+159. Signaling Diversity Debt: Startup Gender Composition and the Gender Gap in Joiners’ Interest
+     Yuval Engel, Trey Lewis (2022) - 48 citations
+160. Academics engaging in knowledge transfer and co-creation: Push causation and pull effectuation?
+     Muthu De Silva, Omar Al‐Tabbaa (2022) - 48 citations
+161. Putting Teams into the Gig Economy: A Field Experiment at a Ride-Sharing Platform
+     Wei Ai, Yan Chen (2023) - 48 citations
+162. Regulating entrepreneurship quality and quantity
+     David B. Audretsch, Maksim Belitski (2023) - 48 citations
+163. Optimal Picking Policies in E-Commerce Warehouses
+     Maximilian Schiffer, Nils Boysen (2022) - 47 citations
+164. Regret in the Newsvendor Model with Demand and Yield Randomness
+     Zhi Chen, Weijun Xie (2021) - 47 citations
+165. Speed and Scaling: An Investigation of Accelerated Firm Growth
+     Maksim Belitski, Tatiana Romanova Stettler (2022) - 47 citations
+166. Fending Off Critics of Platform Power with Differential Revenue Sharing: Doing Well by Doing Good?
+     Hemant K. Bhargava, Kitty Wang (2022) - 47 citations
+167. Health Wearables, Gamification, and Healthful Activity
+     Muhammad Zia Hydari, Idris Adjerid (2022) - 47 citations
+168. Interorganizational Systems and Supply Chain Agility in Uncertain Environments: The Mediation Role of Supply Chain Collaboration
+     Jingmei Zhou, Ting Xu (2023) - 47 citations
+169. Decision authority and the returns to algorithms
+     Hyunjin Kim, Edward L. Glaeser (2023) - 47 citations
+170. <scp>ESG</scp> as a nonmarket strategy to cope with geopolitical tension: Empirical evidence from multinationals' <scp>ESG</scp> performance
+     Jin Hyung Kim, Jooyoung Kwak (2024) - 47 citations
+171. Social Learning in the COVID-19 Pandemic: Community Establishments’ Closure Decisions Follow Those of Nearby Chain Establishments
+     Mathijs de Vaan, Saqib Mumtaz (2021) - 47 citations
+172. What makes a productive Ph.D. student?
+     Alberto Corsini, Michele Pezzoni (2022) - 46 citations
+173. Frenemies: Overcoming Audiences’ Ideological Opposition to Firm–Activist Collaborations
+     Kate Odziemkowska (2021) - 46 citations
+174. Revenue-Sharing Allocation Strategies for Two-Sided Media Platforms: Pro-Rata vs. User-Centric
+     Saeed Alaei, Ali Makhdoumi (2022) - 46 citations
+175. Corporate Purpose in Public and Private Firms
+     Claudine Madras Gartenberg, George Serafeim (2022) - 46 citations
+176. Seeing the Forest<i>and</i>the Trees: Exploring the Impact of Inter- and Intra-Entrepreneurial Ecosystem Embeddedness on New Venture Creation
+     Lei Xu, Shu Yang (2023) - 46 citations
+177. Cashing in on the culture wars? <scp>CEO</scp> activism, wokewashing, and firm value
+     Gaia Melloni, Andrea Patacconi (2023) - 46 citations
+178. The Impact of Derivatives on Spot Markets: Evidence from the Introduction of Bitcoin Futures Contracts
+     Patrick Augustin, Alexey Rubtsov (2023) - 46 citations
+179. Replicating and Digesting Anomalies in the Chinese A-Share Market
+     Zhibing Li, Laura Xiaolei Liu (2023) - 46 citations
+180. Cross-border effects of R&amp;D tax incentives
+     Bodo Knoll, Nadine Riedel (2021) - 45 citations
+181. Technology transfer systems and modes of national research institutes: evidence from the Chinese academy of sciences
+     Kaihua Chen, Chao Zhang (2022) - 45 citations
+182. Incentives and Defaults Can Increase COVID-19 Vaccine Intentions and Test Demand
+     Marta Serra-García, Nora Szech (2022) - 45 citations
+183. 'Glossy Green' Banks: The Disconnect Between Environmental Disclosures and Lending Activities
+     Mariassunta Giannetti, Martina Jašová (2023) - 45 citations
+184. Navigating the highs and lows of entrepreneurial identity threats to persist: The countervailing force of a relational identity with God
+     Brett R. Smith, Amanda Lawson (2023) - 45 citations
+185. Implementing trade‐in programs in the presence of resale platforms: Mode selection and pricing
+     Xuanming Bai, Tsan‐Ming Choi (2023) - 45 citations
+186. Proof-of-Work Cryptocurrencies: Does Mining Technology Undermine Decentralization?
+     Agostino Capponi, S. Ólafsson (2023) - 44 citations
+187. Political affinity and investors' response to the acquisition premium in cross‐border M&amp;A transactions — A moderation analysis
+     Christian Fieberg, Kerstin Lopatta (2021) - 44 citations
+188. Exclusive licensing of university technology: The effects of university prestige, technology transfer offices, and academy-industry collaboration
+     Huijun Shen, Wim Coreynen (2021) - 44 citations
+189. Managing Software‐as‐a‐Service: Pricing and operations
+     Bo Li, Subodha Kumar (2022) - 44 citations
+190. Beyond innovation and deployment: Modeling the impact of technology-push and demand-pull policies in Germany's solar policy mix
+     Alejandro Nuñez-Jimenez, Christof Knoeri (2022) - 44 citations
+191. Robust Pricing and Production with Information Partitioning and Adaptation
+     Georgia Perakis, Melvyn Sim (2022) - 44 citations
+192. How Political Actors Co‐Construct CSR and its Effect on Firms' Political Access: A Discursive Institutionalist View
+     Onna Malou van den Broek (2022) - 44 citations
+193. Chilling effects of patent trolls
+     Feng Chen, Yu Hou (2022) - 44 citations
+194. Opportunities in farming research from an operations management perspective
+     Sushil K. Gupta, Hossein Rikhtehgar Berenji (2023) - 44 citations
+195. Decentralized Platforms: Governance, Tokenomics, and ICO Design
+     Jingxing Gan, Gerry Tsoukalas (2023) - 44 citations
+196. Orchestrating coordination among humanitarian organizations
+     Lea Ruesch, Murat Tarakci (2022) - 43 citations
+197. Combining Crowd and Machine Intelligence to Detect False News on Social Media
+     Xuan Wei, Zhu Zhang (2022) - 43 citations
+198. Offset or reduce: How should firms implement carbon footprint reduction initiatives?
+     Nils Roemer, Gilvan C. Souza (2023) - 43 citations
+199. Prescriptive Theorizing in Management Research: A New Impetus for Addressing Grand Challenges
+     Marvin Hanisch (2024) - 43 citations
+200. Geopolitical volatility and subsidiary investments
+     Gilbert Kofi Adarkwah, Sinziana Dorobantu (2024) - 43 citations

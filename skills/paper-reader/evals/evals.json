@@ -1,0 +1,41 @@
+{
+  "skill_name": "paper-reader",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "帮我精读这篇论文。我的研究主题是'数字经济对县域城乡收入差距的影响'，核心假设：1. 数字经济发展缩小县域城乡收入差距；2. 数字基础设施建设通过提升劳动力转移效率发挥中介作用。PDF路径：D:\\papers\\chen_2024_digital_economy.pdf",
+      "expected_output": "A complete reading-report.html with: all 8 dimensions filled for 1 paper, dimension 7 mapping to hypothesis 1 or 2 with explicit chapter assignment, 2-3 verbatim quotable sentences with page refs, source page anchors on every dim-card, fit-badge on title, single-paper summary ≤300 chars. Source format detected as pdf-text and stated to user before processing.",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "精读这3篇论文：paper1.pdf, paper2.pdf, paper3.pdf。研究主题：'绿色金融与企业环境绩效'，假设：1. 绿色金融政策显著提升企业环境绩效；2. 该效应在重污染行业中更强。批量处理，最后给对比表。",
+      "expected_output": "A reading-report.html with 3 independent full 8-dimension paper sections, each with fit-badge, source anchors, quotable sentences. Batch mode: 横向对比表 at the end with 4 columns (研究问题, 方法与数据, 核心结论, 适配性). Papers sorted by fit level (high first). Each paper's dim 1-6 summary ≤300 chars.",
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "我只有这篇论文的DOI：10.1016/j.jfineco.2023.105678。帮我精读。研究主题：'CEO海外背景与企业创新'，假设：1. CEO海外背景促进企业创新产出；2. 该效应通过提升企业国际化网络密度发挥中介作用。",
+      "expected_output": "Source format detected as doi-url, user notified. Attempt to resolve DOI via web. If full text obtained: complete 8-dimension report. If only abstract: dimensions 1-2 filled, 3-6 marked '信息不足', dimension 7 attempted from abstract, dimension 8 noted as limited. Limitation disclaimer included in HTML. Fit assessment based on available information.",
+      "files": []
+    },
+    {
+      "id": 4,
+      "prompt": "这篇PDF好像读不了，帮我试试精读。研究主题：'货币政策传导与企业投资'。PDF路径：D:\\papers\\old_paper_1998.pdf",
+      "expected_output": "Source format detected as scanned-pdf (or partial scan). User warned about OCR limitations. If partial text available: fill available dimensions, mark rest as '信息不足'. Confidence disclaimer in HTML (red-tinted). Dimension 7 attempted from available abstract/intro. Dimension 8 skipped or noted as unreliable for scanned content.",
+      "files": []
+    },
+    {
+      "id": 5,
+      "prompt": "我复制了一篇论文的摘要给你：'This paper examines the causal effect of minimum wage increases on local labor markets using a synthetic control approach...' 帮我做个精读拆解。研究主题：'最低工资对就业的影响'，假设：1. 最低工资上涨显著降低低技能劳动力就业率。",
+      "expected_output": "Source format detected as pasted-text, user notified. Dimension 1-2 filled from abstract. Dimensions 3-6 marked '信息不足：仅提供摘要文本'. Dimension 7 attempted from abstract content. Dimension 8 skipped (insufficient text for verbatim extraction). Limitation disclaimer in HTML. Suggestion to user to provide full PDF for complete report.",
+      "files": []
+    },
+    {
+      "id": 6,
+      "prompt": "帮我精读这篇论文，但我没给研究主题和假设。PDF路径：D:\\papers\\wang_2024_fintech.pdf",
+      "expected_output": "Skill detects missing required inputs (研究主题 and 核心假设). Before processing, asks user to provide: 1) 当前研究主题/论文题目, 2) 核心假设 (1-3条). Does NOT proceed to generate the full report without these inputs. Explains that dimension 7 (适配性) requires user hypotheses to be meaningful.",
+      "files": []
+    }
+  ]
+}

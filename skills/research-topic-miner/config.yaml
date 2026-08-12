@@ -1,0 +1,112 @@
+# research-topic-miner 配置文件
+
+databases:
+  # OpenAlex - 综合学术搜索
+  openalex:
+    enabled: true
+    max_results: 100
+    time_range: "3years"  # 1year, 3years, 5years
+    sort_by: "cited_by_count"
+    api_endpoint: "https://api.openalex.org"
+
+  # Elsevier ScienceDirect - 英文期刊全文
+  elsevier:
+    enabled: true
+    subjects:
+      - business
+      - economics
+      - social sciences
+    max_results: 50
+    api_endpoint: "https://api.elsevier.com/content/search"
+
+  # Web of Science - 引文数据库
+  wos:
+    enabled: true
+    indices:
+      - SSCI
+      - SCI
+    max_results: 80
+    # 需要机构API密钥
+    api_endpoint: "https://api.clarivate.com/apis/wos"
+
+  # arXiv - 预印本
+  arxiv:
+    enabled: true
+    categories:
+      - q-fin  # Quantitative Finance
+      - cs    # Computer Science
+      - stat  # Statistics
+      - econ  # Economics
+    max_results: 30
+    api_endpoint: "http://export.arxiv.org/api/query"
+
+  # Google Scholar - 高被引补充
+  google_scholar:
+    enabled: true
+    max_results: 20
+    # 使用有限API或手动搜索
+
+  # CNKI - 中文核心
+  cnki:
+    enabled: true
+    journal_types:
+      - CSSCI
+      - 北大核心
+    max_results: 60
+    api_endpoint: "https://api.cnki.net"
+
+# 期刊过滤规则
+journal_filters:
+  utd24: true       # UTD24商学期刊列表
+  ft50: true        # FT50金融期刊列表
+  cssci: true       # CSSCI来源期刊
+  beida核心: true   # 北大核心
+
+# 时间范围
+time_range:
+  default: "3years"  # 默认近3年
+  options:
+    - 1year
+    - 3years
+    - 5years
+
+# 量化分析配置
+analysis:
+  topic_modeling:
+    algorithm: "BERTopic"  # LDA 或 BERTopic
+    num_topics: 8           # 主题数量
+    
+  citation_network:
+    metrics:
+      - citation_count
+      - pagerank
+      - betweenness_centrality
+      
+  keyword_extraction:
+    method: "TF-IDF"
+    top_n: 20
+
+# 用户自有文献配置
+user_references:
+  enabled: true
+  input_formats:
+    - doi_list       # DOI列表
+    - bibtex         # BibTeX文件
+    - csv            # CSV (标题,作者,年份,期刊)
+    - manual         # 手动输入
+  
+  processing:
+    auto_metadata: true      # 自动获取元数据
+    deduplicate: true         # 与采集文献去重
+    priority_tag: "user"     # 标记为用户引入
+
+# 输出配置
+output:
+  format: "markdown"
+  include_diagrams: true
+  max_proposals: 10           # 最大选题建议数量
+  
+  sections:
+    - research_frontier
+    - research_gaps
+    - topic_proposals

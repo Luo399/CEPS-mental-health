@@ -1,0 +1,70 @@
+% Custom packages for LaTeX document
+% Add any additional packages as needed
+
+% Basic packages
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{amsmath,amssymb,amsfonts}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{url}
+\usepackage{hyperref}
+\usepackage{cite}
+\usepackage{geometry}
+\usepackage{setspace}
+\usepackage{fancyhdr}
+\usepackage{sectsty}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{tikz}
+\usepackage{pgfplots}
+\usepackage{multirow}
+\usepackage{array}
+\usepackage{algorithm}
+\usepackage{algorithmic}
+
+% Page geometry
+\geometry{
+    a4paper,
+    margin=1in,
+    top=1.2in,
+    bottom=1.2in,
+    left=1.2in,
+    right=1.2in
+}
+
+% Line spacing
+\onehalfspacing
+
+% Section formatting
+\sectionfont{\fontsize{14}{18}\selectfont\bfseries}
+\subsectionfont{\fontsize{12}{15}\selectfont\bfseries}
+\subsubsectionfont{\fontsize{11}{13}\selectfont\bfseries}
+
+% Hyperref configuration
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,
+    urlcolor=cyan,
+    citecolor=blue,
+    pdftitle={[Your Paper Title]},
+    pdfauthor={[Your Name]},
+    pdfsubject={Research Paper},
+    pdfkeywords={}
+}
+
+% Caption configuration
+\captionsetup[figure]{font=small,labelfont=bf}
+\captionsetup[table]{font=small,labelfont=bf}
+
+% Algorithm configuration
+\floatname{algorithm}{Algorithm}
+\renewcommand{\algorithmicrequire}{\textbf{Input:}}
+\renewcommand{\algorithmicensure}{\textbf{Output:}}
+\renewcommand{\algorithmicif}{\textbf{if}}
+\renewcommand{\algorithmicelse}{\textbf{else}}
+\renewcommand{\algorithmicfor}{\textbf{for}}
+\renewcommand{\algorithmicwhile}{\textbf{while}}
+\renewcommand{\algorithmicdo}{\textbf{do}}
+\renewcommand{\algorithmicreturn}{\textbf{return}}

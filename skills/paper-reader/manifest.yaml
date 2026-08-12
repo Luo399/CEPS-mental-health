@@ -1,0 +1,32 @@
+name: paper-reader
+version: 2.1.0
+
+always_load:
+  - static/core/principles.md
+  - static/core/workflow.md
+  - static/core/output-contract.md
+
+axes:
+  source_format:
+    detect: |
+      pdf-text=可选文本PDF(默认), scanned-pdf=图片/OCR PDF,
+      doi-url=DOI/arXiv/出版商URL, pasted-text=粘贴的文本.
+      多值时先加载解析碎片再加载结果碎片.
+    values:
+      pdf-text:     static/fragments/source/pdf-text.md
+      scanned-pdf:  static/fragments/source/scanned-pdf.md
+      doi-url:      static/fragments/source/doi-url.md
+      pasted-text:  static/fragments/source/pasted-text.md
+    default: pdf-text
+    multi: true
+
+references:
+  on_demand:
+    - condition: source block ID / page anchoring
+      path: references/source-tracing.md
+    - condition: extracting tables/figures
+      path: references/figure-extraction.md
+    - condition: fit level / hypothesis mapping
+      path: references/fit-assessment.md
+    - condition: quotable sentences / citation format
+      path: references/quotable-sentences.md

@@ -1,0 +1,43 @@
+# Workspaces created by the skill
+research-*/
+workspace/
+results/
+logs/
+
+# Pipeline project workspaces and generated manuscripts.
+# Ignored by default; upload a project manually with:
+#   git add -f Exploration/Project_NNN_<Name>/
+Exploration/
+
+# Local Claude Code settings (personal overrides, not team-wide)
+.claude/settings.local.json
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+
+# Python caches and environments (Stage 7b numerical simulation)
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+.venv/
+venv/
+env/
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+
+# LaTeX build intermediates
+*.aux
+*.out
+*.toc
+*.synctex.gz
+manuscript.log

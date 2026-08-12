@@ -1,0 +1,52 @@
+# LaTeX 源码与编译产物（仓库只发布 PDF，源码留作者本地）
+*.tex
+*.cls
+*.bib
+*.aux
+*.bcf
+*.log
+*.out
+*.toc
+*.run.xml
+*.synctex.gz
+*.fls
+*.fdb_latexmk
+*.lof
+*.lot
+*.blg
+*.bbl
+
+# Overleaf 同步元数据
+.overleaf/
+
+# 大纲与素材文件（作者本地使用）
+book-outline.md
+
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# Word 文档
+*.docx
+
+# 编辑器临时文件
+*~
+*.swp
+.vscode/
+
+# 图片源文件（PDF 已嵌入，仓库里不另存源图）
+*.jpg
+*.png
+figure/
+figures/
+image/
+# 例外：章节 markdown 的配图
+!assets/**/*.png
+!assets/**/*.jpg
+
+# 图表生成脚本（属于 LaTeX 编译流程，不公开）
+scripts/
+
+# 例外：skills/ 下所有内容都跟踪（skill 自带的模板、脚本、图片）
+!skills/
+!skills/**

@@ -1,0 +1,35 @@
+{
+  "skill_name": "paper-outline-generator",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "I need to write a research paper on the impact of climate change on coastal ecosystems for a marine biology journal. Can you help me create a detailed outline?",
+      "expected_output": "A comprehensive outline following IMRAD structure with discipline-specific adaptations for marine biology, including detailed sections for introduction, methods, results, discussion, and conclusion with specific research questions and methodological considerations.",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "I'm writing my master's thesis in computer science about machine learning applications in cybersecurity. I need a thesis outline with chapters and sub-sections.",
+      "expected_output": "A detailed master's thesis outline with multiple chapters following computer science conventions, including introduction, literature review, methodology, implementation, evaluation, and conclusion chapters with specific technical details and research questions.",
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "Help me create a literature review outline about renewable energy policies in developing countries for a political science course.",
+      "expected_output": "A structured literature review outline appropriate for political science, including introduction, search strategy, thematic analysis, synthesis, and conclusion sections with specific political theory frameworks and policy analysis approaches.",
+      "files": []
+    },
+    {
+      "id": 4,
+      "prompt": "I need to write a grant proposal for a medical research project studying new treatments for diabetes. Can you provide an outline?",
+      "expected_output": "A comprehensive grant proposal outline following medical research standards, including specific aims, background/significance, preliminary studies, research design, timeline, budget, and references sections with detailed methodological considerations.",
+      "files": []
+    },
+    {
+      "id": 5,
+      "prompt": "Create a conference paper outline for an engineering presentation about sustainable building materials.",
+      "expected_output": "A concise conference paper outline following engineering conventions, including abstract, introduction, methodology, results, discussion, conclusion, and references with emphasis on technical specifications and performance metrics.",
+      "files": []
+    }
+  ]
+}

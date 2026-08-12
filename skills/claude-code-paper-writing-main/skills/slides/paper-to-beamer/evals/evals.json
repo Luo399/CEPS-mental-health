@@ -1,0 +1,47 @@
+{
+  "skill_name": "paper-to-beamer",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "我有一篇BERT的论文PDF，帮我做一个beamer的PPT用于组会汇报，大概20分钟",
+      "expected_output": "A compilable LaTeX Beamer presentation with ~18-20 slides covering BERT's architecture (masked language model, next sentence prediction), pre-training/fine-tuning framework, and experimental results. Should use the Crimson template with Chinese section titles and English technical terms.",
+      "files": [],
+      "expectations": [
+        "Output contains a main.tex file with \\documentclass{beamer}",
+        "Uses xeCJK and STKaiti font setup",
+        "Does NOT include pstricks or explicit hyperref",
+        "Has between 15 and 22 \\begin{frame} environments",
+        "Includes \\bibliography{ref} for references",
+        "Contains at least one \\begin{equation} or equation* environment",
+        "Section titles are in Chinese"
+      ]
+    },
+    {
+      "id": 2,
+      "prompt": "I need to present the ResNet paper (Deep Residual Learning for Image Recognition) at a reading group next week. Can you make LaTeX slides for a 30-minute talk? I want it in English.",
+      "expected_output": "A Beamer presentation with ~25-27 slides covering ResNet's residual learning framework, skip connections, degradation problem, and ImageNet results. All content in English since user requested it.",
+      "files": [],
+      "expectations": [
+        "Output contains a main.tex file with \\documentclass{beamer}",
+        "Has between 22 and 30 \\begin{frame} environments",
+        "Content is primarily in English (not Chinese section titles)",
+        "Includes figures placeholders for residual block diagrams",
+        "Contains a table comparing model performance",
+        "Uses booktabs for tables (\\toprule, \\midrule, \\bottomrule)"
+      ]
+    },
+    {
+      "id": 3,
+      "prompt": "帮我把这篇GAN的论文做成beamer幻灯片，15分钟的简短汇报就行",
+      "expected_output": "A concise Beamer presentation with ~15 slides covering GAN's adversarial training framework, generator/discriminator architecture, minimax game formulation, and training results. Short and focused.",
+      "files": [],
+      "expectations": [
+        "Output contains a main.tex file with \\documentclass{beamer}",
+        "Has between 12 and 18 \\begin{frame} environments",
+        "Includes the minimax loss formula",
+        "Uses the Crimson template (\\usepackage{crimson})",
+        "Includes ref.bib with at least the GAN paper citation"
+      ]
+    }
+  ]
+}

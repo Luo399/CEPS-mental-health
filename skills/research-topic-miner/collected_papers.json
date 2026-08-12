@@ -1,0 +1,480 @@
+[
+  {
+    "doi": "arXiv:2604.16274v1",
+    "title": "Yttrium ion as a platform for quantum information processing",
+    "authors": [
+      "Christopher N. Gilbreth",
+      "Dmytro Filin",
+      "Marianna S. Safronova",
+      "Guanming Lao",
+      "Eric R. Hudson"
+    ],
+    "year": 2026,
+    "journal": "arXiv",
+    "abstract": "Engineering large-scale quantum computers which simultaneously provide high-fidelity quantum operations, low memory errors, low crosstalk, and reasonable resource usage remains an outstanding challenge across quantum computing platforms. In trapped ions, progress has largely focused on alkaline-earth and ytterbium ions, whose simple electronic structures facilitate control over their internal state. Here we investigate singly-ionized yttrium ($^{89}\\mathrm{Y}^+$), a two-valence-electron ion whose ground-state manifold hosts a nuclear-spin qubit and which also features a variety of low-lying metastable manifolds, for applications in quantum information processing. Because experimental data are limited, we perform high-resolution laser-induced fluorescence spectroscopy to measure the hyperfine structure of several low-lying levels, and carry out comprehensive electronic structure calculations to determine lifetimes, transition matrix elements, and hyperfine coefficients for manifolds addressable with visible, near-visible, or infrared wavelengths. Using these results, we analyze schemes for qubit storage, initialization, readout, leakage mitigation, and single- and two-qubit gates. These results position $^{89}\\mathrm{Y}^+$ as a uniquely capable next-generation trapped-ion qubit, combining field-insensitive nuclear-spin or clock-qubit storage with spectrally isolated transitions for operations.",
+    "citations": 0,
+    "url": "http://arxiv.org/abs/2604.16274v1",
+    "source": "arxiv"
+  },
+  {
+    "doi": "arXiv:2604.16270v1",
+    "title": "From Benchmarking to Reasoning: A Dual-Aspect, Large-Scale Evaluation of LLMs on Vietnamese Legal Text",
+    "authors": [
+      "Van-Truong Le"
+    ],
+    "year": 2026,
+    "journal": "arXiv",
+    "abstract": "The complexity of Vietnam's legal texts presents a significant barrier to public access to justice. While Large Language Models offer a promising solution for legal text simplification, evaluating their true capabilities requires a multifaceted approach that goes beyond surface-level metrics. This paper introduces a comprehensive dual-aspect evaluation framework to address this need. First, we establish a performance benchmark for four state-of-the-art large language models (GPT-4o, Claude 3 Opus, Gemini 1.5 Pro, and Grok-1) across three key dimensions: Accuracy, Readability, and Consistency. Second, to understand the \"why\" behind these performance scores, we conduct a large-scale error analysis on a curated dataset of 60 complex Vietnamese legal articles, using a novel, expert-validated error typology. Our results reveal a crucial trade-off: models like Grok-1 excel in Readability and Consistency but compromise on fine-grained legal Accuracy, while models like Claude 3 Opus achieve high Accuracy scores that mask a significant number of subtle but critical reasoning errors. The error analysis pinpoints \\textit{Incorrect Example} and \\textit{Misinterpretation} as the most prevalent failures, confirming that the primary challenge for current LLMs is not summarization but controlled, accurate legal reasoning. By integrating a quantitative benchmark with a qualitative deep dive, our work provides a holistic and actionable assessment of LLMs for legal applications.",
+    "citations": 0,
+    "url": "http://arxiv.org/abs/2604.16270v1",
+    "source": "arxiv"
+  },
+  {
+    "doi": "arXiv:2604.16269v1",
+    "title": "Benchmarking Current-to-Voltage Amplifiers for Quantum Transport Measurements",
+    "authors": [
+      "J. Escorza",
+      "G. Pellicer",
+      "T. de Ara",
+      "J. Hurtado-Gallego",
+      "E. Scheer"
+    ],
+    "year": 2026,
+    "journal": "arXiv",
+    "abstract": "Accurate electrical amplification is essential in molecular electronics for measuring conductance through atomic and molecular junctions, where currents often span several orders of magnitude. In this work, we present a systematic design and comparative analysis of four current-to-voltage ($I\\text{--}V$) amplifier architectures: single-stage linear, series-linear, logarithmic, and multi-stage cascaded, specifically optimized for break junction (BJ) techniques, including scanning tunneling microscopy (STM-BJ) and mechanically controllable break junctions (MCBJ). Each configuration is evaluated based on sensitivity, noise performance, and dynamic range. Our results characterize the trade-offs between circuit complexity and noise, providing a robust framework and practical guidelines for selecting amplification schemes in quantum transport experiments.",
+    "citations": 0,
+    "url": "http://arxiv.org/abs/2604.16269v1",
+    "source": "arxiv"
+  },
+  {
+    "doi": "arXiv:2604.16242v1",
+    "title": "Detecting and Suppressing Reward Hacking with Gradient Fingerprints",
+    "authors": [
+      "Songtao Wang",
+      "Quang Hieu Pham",
+      "Fangcong Yin",
+      "Xinpeng Wang",
+      "Jocelyn Qiaochu Chen"
+    ],
+    "year": 2026,
+    "journal": "arXiv",
+    "abstract": "Reinforcement learning with verifiable rewards (RLVR) typically optimizes for outcome rewards without imposing constraints on intermediate reasoning. This leaves training susceptible to reward hacking, where models exploit loopholes (e.g., spurious patterns in training data) in the reward function to achieve high scores without solving the intended task. These reward-hacking behaviors are often implicit, as the intermediate chain-of-thought (CoT) may appear plausible on the surface, limiting the effectiveness of purely text-based monitoring. We propose Gradient Fingerprint (GRIFT), a method for detecting reward hacking using models' internal computations. Given a prompt and a model-generated CoT, GRIFT computes gradients of the CoT conditioned on the prompt and compresses them into a compact representation, which is then used to assess whether the CoT reflects reward hacking behavior. Across verifiable reasoning benchmarks spanning math, code, and logical reasoning, GRIFT substantially outperforms strong baselines, including CoT Monitor and TRACE, achieving over 25% relative improvement in detecting reward hacking behavior. Moreover, integrating GRIFT into the rejection fine-tuning pipeline for reasoning tasks reduces reward hacking and improves performance on the true task objective. Our results highlight a promising direction of leveraging gradient level representations for assessing the quality of CoT reasoning traces. Our code is available at: https://github.com/songtao-x/reward_hack.",
+    "citations": 0,
+    "url": "http://arxiv.org/abs/2604.16242v1",
+    "source": "arxiv"
+  },
+  {
+    "doi": "arXiv:2604.16239v1",
+    "title": "Adaptive multi-fidelity optimization with fast learning rates",
+    "authors": [
+      "Come Fiegel",
+      "Victor Gabillon",
+      "Michal Valko"
+    ],
+    "year": 2026,
+    "journal": "arXiv",
+    "abstract": "In multi-fidelity optimization, biased approximations of varying costs of the target function are available. This paper studies the problem of optimizing a locally smooth function with a limited budget, where the learner has to make a tradeoff between the cost and the bias of these approximations. We first prove lower bounds for the simple regret under different assumptions on the fidelities, based on a cost-to-bias function. We then present the Kometo algorithm which achieves, with additional logarithmic factors, the same rates without any knowledge of the function smoothness and fidelity assumptions, and improves previously proven guarantees. We finally empirically show that our algorithm outperforms previous multi-fidelity optimization methods without the knowledge of problem-dependent parameters.",
+    "citations": 0,
+    "url": "http://arxiv.org/abs/2604.16239v1",
+    "source": "arxiv"
+  },
+  {
+    "doi": "arXiv:2604.16238v1",
+    "title": "Enhancing AI and Dynamical Subseasonal Forecasts with Probabilistic Bias Correction",
+    "authors": [
+      "Hannah Guan",
+      "Soukayna Mouatadid",
+      "Paulo Orenstein",
+      "Judah Cohen",
+      "Haiyu Dong"
+    ],
+    "year": 2026,
+    "journal": "arXiv",
+    "abstract": "Decision-makers rely on weather forecasts to plant crops, manage wildfires, allocate water and energy, and prepare for weather extremes. Today, such forecasts enjoy unprecedented accuracy out to two weeks thanks to steady advances in physics-based dynamical models and data-driven artificial intelligence (AI) models. However, model skill drops precipitously at subseasonal timescales (2 - 6 weeks ahead), due to compounding errors and persistent biases. To counter this degradation, we introduce probabilistic bias correction (PBC), a machine learning framework that substantially reduces systematic error by learning to correct historical probabilistic forecasts. When applied to the leading dynamical and AI models from the European Centre for Medium-Range Weather Forecasts (ECMWF), PBC doubles the subseasonal skill of the AI Forecasting System and improves the skill of the operationally-debiased dynamical model for 91% of pressure, 92% of temperature, and 98% of precipitation targets. We designed PBC for operational deployment, and, in ECMWF's 2025 real-time forecasting competition, its global forecasts placed first for all weather variables and lead times, outperforming the dynamical models from six operational forecasting centers, an international dynamical multi-model ensemble, ECMWF's AI Forecasting System, and the forecasting systems of 34 teams worldwide. These probabilistic skill gains translate into more accurate prediction of extreme events and have the potential to improve agricultural planning, energy management, and disaster preparedness in vulnerable communities.",
+    "citations": 0,
+    "url": "http://arxiv.org/abs/2604.16238v1",
+    "source": "arxiv"
+  },
+  {
+    "doi": "arXiv:2604.16217v1",
+    "title": "Beyond Surface Statistics: Robust Conformal Prediction for LLMs via Internal Representations",
+    "authors": [
+      "Yanli Wang",
+      "Peng Kuang",
+      "Xiaoyu Han",
+      "Kaidi Xu",
+      "Haohan Wang"
+    ],
+    "year": 2026,
+    "journal": "arXiv",
+    "abstract": "Large language models are increasingly deployed in settings where reliability matters, yet output-level uncertainty signals such as token probabilities, entropy, and self-consistency can become brittle under calibration--deployment mismatch. Conformal prediction provides finite-sample validity under exchangeability, but its practical usefulness depends on the quality of the nonconformity score. We propose a conformal framework for LLM question answering that uses internal representations rather than output-facing statistics: specifically, we introduce Layer-Wise Information (LI) scores, which measure how conditioning on the input reshapes predictive entropy across model depth, and use them as nonconformity scores within a standard split conformal pipeline. Across closed-ended and open-domain QA benchmarks, with the clearest gains under cross-domain shift, our method achieves a better validity--efficiency trade-off than strong text-level baselines while maintaining competitive in-domain reliability at the same nominal risk level. These results suggest that internal representations can provide more informative conformal scores when surface-level uncertainty is unstable under distribution shift.",
+    "citations": 0,
+    "url": "http://arxiv.org/abs/2604.16217v1",
+    "source": "arxiv"
+  },
+  {
+    "doi": "arXiv:2604.16201v1",
+    "title": "DENALI: A Dataset Enabling Non-Line-of-Sight Spatial Reasoning with Low-Cost LiDARs",
+    "authors": [
+      "Nikhil Behari",
+      "Diego Rivero",
+      "Luke Apostolides",
+      "Suman Ghosh",
+      "Paul Pu Liang"
+    ],
+    "year": 2026,
+    "journal": "arXiv",
+    "abstract": "Consumer LiDARs in mobile devices and robots typically output a single depth value per pixel. Yet internally, they record full time-resolved histograms containing direct and multi-bounce light returns; these multi-bounce returns encode rich non-line-of-sight (NLOS) cues that can enable perception of hidden objects in a scene. However, severe hardware limitations of consumer LiDARs make NLOS reconstruction with conventional methods difficult. In this work, we motivate a complementary direction: enabling NLOS perception with low-cost LiDARs through data-driven inference. We present DENALI, the first large-scale real-world dataset of space-time histograms from low-cost LiDARs capturing hidden objects. We capture time-resolved LiDAR histograms for 72,000 hidden-object scenes across diverse object shapes, positions, lighting conditions, and spatial resolutions. Using our dataset, we show that consumer LiDARs can enable accurate, data-driven NLOS perception. We further identify key scene and modeling factors that limit performance, as well as simulation-fidelity gaps that hinder current sim-to-real transfer, motivating future work toward scalable NLOS vision with consumer LiDARs.",
+    "citations": 0,
+    "url": "http://arxiv.org/abs/2604.16201v1",
+    "source": "arxiv"
+  },
+  {
+    "doi": "arXiv:2604.16143v1",
+    "title": "Deterministic Task Scheduling in In-Vehicle Networks for Software-Defined Vehicles",
+    "authors": [
+      "Keyvan Aghababaiyan",
+      "Baldomero Coll-Perales",
+      "Luca Lusvarghi",
+      "Javier Gozalvez"
+    ],
+    "year": 2026,
+    "journal": "arXiv",
+    "abstract": "Modern vehicles are embedding increasing levels of automation, connectivity, and intelligence, which require advanced in-vehicle networks and computational platforms to support the dependability and deterministic requirements of critical in-vehicle functions. To this end, the automotive industry is shifting towards software-defined vehicles (SDVs) and zonal E/E architectures with centralized computing nodes. Realizing the full potential of these new architectures requires an efficient management of the in-vehicles computational workload. In this context, this paper introduces a deterministic task scheduling approach for in-vehicle networks (IVN), and demonstrates that it can better guarantee deterministic service levels than alternative approaches based on the shortest path or the objective to minimize task execution time. Our evaluation also demonstrates that a deterministic task scheduling can satisfactorily support increasing in-vehicle computational workloads and tasks, and achieve a more balanced workload and resource utilization across the IVN. These gains are validated across a variety of IVN topologies, and in hybrid wireless-wired IVN implementations, where a gradual introduction of wireless offers increased in-vehicle connectivity diversity.",
+    "citations": 0,
+    "url": "http://arxiv.org/abs/2604.16143v1",
+    "source": "arxiv"
+  },
+  {
+    "doi": "arXiv:2604.16119v1",
+    "title": "Univariate Channel Fusion for Multivariate Time Series Classification",
+    "authors": [
+      "Fernando Moro",
+      "Vinicius M. A. Souza"
+    ],
+    "year": 2026,
+    "journal": "arXiv",
+    "abstract": "Multivariate time series classification (MTSC) plays a crucial role in various domains, including biomedical signal analysis and motion monitoring. However, existing approaches, particularly deep learning models, often require high computational resources, making them unsuitable for real-time applications or deployment on low-cost hardware, such as IoT devices and wearable systems. In this paper, we propose the Univariate Channel Fusion (UCF) method to deal with MTSC efficiently. UCF transforms multivariate time series into a univariate representation through simple channel fusion strategies such as the mean, median, or dynamic time warping barycenter. This transformation enables the use of any classifier originally designed for univariate time series, providing a flexible and computationally lightweight alternative to complex models. We evaluate UCF in five case studies covering diverse application domains, including chemical monitoring, brain-computer interfaces, and human activity analysis. The results demonstrate that UCF often outperforms baseline methods and state-of-the-art algorithms tailored for MTSC, while achieving substantial gains in computational efficiency, being particularly effective in problems with high inter-channel correlation.",
+    "citations": 0,
+    "url": "http://arxiv.org/abs/2604.16119v1",
+    "source": "arxiv"
+  },
+  {
+    "doi": "arXiv:2604.16111v1",
+    "title": "Sample Complexity Bounds for Stochastic Shortest Path with a Generative Model",
+    "authors": [
+      "Jean Tarbouriech",
+      "Matteo Pirotta",
+      "Michal Valko",
+      "Alessandro Lazaric"
+    ],
+    "year": 2026,
+    "journal": "arXiv",
+    "abstract": "We study the sample complexity of learning an $ε$-optimal policy in the Stochastic Shortest Path (SSP) problem. We first derive sample complexity bounds when the learner has access to a generative model. We show that there exists a worst-case SSP instance with $S$ states, $A$ actions, minimum cost $c_{\\min}$, and maximum expected cost of the optimal policy over all states $B_{\\star}$, where any algorithm requires at least $Ω(SAB_{\\star}^3/(c_{\\min}ε^2))$ samples to return an $ε$-optimal policy with high probability. Surprisingly, this implies that whenever $c_{\\min} = 0$ an SSP problem may not be learnable, thus revealing that learning in SSPs is strictly harder than in the finite-horizon and discounted settings. We complement this lower bound with an algorithm that matches it, up to logarithmic factors, in the general case, and an algorithm that matches it up to logarithmic factors even when $c_{\\min} = 0$, but only under the condition that the optimal policy has a bounded hitting time to the goal state.",
+    "citations": 0,
+    "url": "http://arxiv.org/abs/2604.16111v1",
+    "source": "arxiv"
+  },
+  {
+    "doi": "arXiv:2604.16095v1",
+    "title": "GroupEnvoy: A Conversational Agent Speaking for the Outgroup to Foster Intergroup Relations",
+    "authors": [
+      "Koken Hata",
+      "Rintaro Chujo",
+      "Reina Takamatsu",
+      "Wenzhen Xu",
+      "Yukino Baba"
+    ],
+    "year": 2026,
+    "journal": "arXiv",
+    "abstract": "Conversational agents have the potential to support intergroup relations when psychological or linguistic barriers prevent direct interaction. Based on intergroup contact theory, we propose GroupEnvoy, a conversational agent that represents outgroup perspectives during ingroup discussions, grounded in transcripts from outgroup-only sessions. To evaluate this approach and derive design principles, we conducted a mixed-methods, between-subjects study with university students, where host-country students formed the ingroup and international students formed the outgroup. Ingroup students performed a collaborative task, receiving outgroup perspectives via GroupEnvoy (experimental) or reading written transcripts (control). Compared to the control group, the experimental group showed greater reduction in intergroup anxiety and greater improvement in perspective-taking. Qualitatively, AI-mediated contact enhanced outcome expectancies, whereas passive exposure fostered future contact intentions. The two conditions also elicited empathy toward distinct targets: outgroup evaluations of the ingroup versus outgroup lived experiences. These findings validate AI-mediated contact as a promising paradigm for improving intergroup relations.",
+    "citations": 0,
+    "url": "http://arxiv.org/abs/2604.16095v1",
+    "source": "arxiv"
+  },
+  {
+    "doi": "arXiv:2604.16087v1",
+    "title": "The Harder Path: Last Iterate Convergence for Uncoupled Learning in Zero-Sum Games with Bandit Feedback",
+    "authors": [
+      "Côme Fiegel",
+      "Pierre Ménard",
+      "Tadashi Kozuno",
+      "Michal Valko",
+      "Vianney Perchet"
+    ],
+    "year": 2026,
+    "journal": "arXiv",
+    "abstract": "We study the problem of learning in zero-sum matrix games with repeated play and bandit feedback. Specifically, we focus on developing uncoupled algorithms that guarantee, without communication between players, the convergence of the last-iterate to a Nash equilibrium. Although the non-bandit case has been studied extensively, this setting has only been explored recently, with a bound of $\\mathcal{O}(T^{-1/8})$ on the exploitability gap. We show that, for uncoupled algorithms, guaranteeing convergence of the policy profiles to a Nash equilibrium is detrimental to the performance, with the best attainable rate being $Ω(T^{-1/4})$ in contrast to the usual $Ω(T^{-1/2})$ rate for convergence of the average iterates. We then propose two algorithms that achieve this optimal rate up to constant and logarithmic factors. The first algorithm leverages a straightforward trade-off between exploration and exploitation, while the second employs a regularization technique based on a two-step mirror descent approach.",
+    "citations": 0,
+    "url": "http://arxiv.org/abs/2604.16087v1",
+    "source": "arxiv"
+  },
+  {
+    "doi": "arXiv:2604.16086v1",
+    "title": "Stylistic-STORM (ST-STORM) : Perceiving the Semantic Nature of Appearance",
+    "authors": [
+      "Hamed Ouattara",
+      "Pierre Duthon",
+      "Pascal Houssam Salmane",
+      "Frédéric Bernardin",
+      "Omar Ait Aider"
+    ],
+    "year": 2026,
+    "journal": "arXiv",
+    "abstract": "One of the dominant paradigms in self-supervised learning (SSL), illustrated by MoCo or DINO, aims to produce robust representations by capturing features that are insensitive to certain image transformations such as illumination, or geometric changes. This strategy is appropriate when the objective is to recognize objects independently of their appearance. However, it becomes counterproductive as soon as appearance itself constitutes the discriminative signal. In weather analysis, for example, rain streaks, snow granularity, atmospheric scattering, as well as reflections and halos, are not noise: they carry the essential information. In critical applications such as autonomous driving, ignoring these cues is risky, since grip and visibility depend directly on ground conditions and atmospheric conditions. We introduce ST-STORM, a hybrid SSL framework that treats appearance (style) as a semantic modality to be disentangled from content. Our architecture explicitly separates two latent streams, regulated by gating mechanisms. The Content branch aims at a stable semantic representation through a JEPA scheme coupled with a contrastive objective, promoting invariance to appearance variations. In parallel, the Style branch is constrained to capture appearance signatures (textures, contrasts, scattering) through feature prediction and reconstruction under an adversarial constraint. We evaluate ST-STORM on several tasks, including object classification (ImageNet-1K), fine-grained weather characterization, and melanoma detection (ISIC 2024 Challenge). The results show that the Style branch effectively isolates complex appearance phenomena (F1=97% on Multi-Weather and F1=94% on ISIC 2024 with 10% labeled data), without degrading the semantic performance (F1=80% on ImageNet-1K) of the Content branch, and improves the preservation of critical appearance",
+    "citations": 0,
+    "url": "http://arxiv.org/abs/2604.16086v1",
+    "source": "arxiv"
+  },
+  {
+    "doi": "arXiv:2604.16080v1",
+    "title": "ProcRoute: Process-Scoped Authorization of Split-Tunnel Routes",
+    "authors": [
+      "Arul Thileeban Sagayam"
+    ],
+    "year": 2026,
+    "journal": "arXiv",
+    "abstract": "In most split-tunnel VPN/ZTNA deployments, installing an internal route authorizes the entire device, not a specific application, to use it. An unprivileged malicious process can therefore reach internal services by reusing routes intended for corporate applications. We present ProcRoute, a system that restricts internal-route access to explicitly authorized applications. ProcRoute models route access as an access-control problem: application identities are principals, destination prefixes with port and protocol constraints are resources, and a total, default-deny decision function mediates every connect() and UDP sendmsg() to an internal destination. Processes without a grant retain external access but are denied internal routes under our threat model. We describe ProcRoute's formal model, a Linux prototype built on cgroup v2 and eBPF socket-address hooks, and two complementary evaluations. In a two-machine WireGuard deployment, ProcRoute matches the WireGuard baseline and 13% faster than an nftables cgroup-matching configuration, with a p50 connect latency of 93 $μ$s (+3.6 $μ$s over baseline), flat policy scaling to 5,000 prefixes, and sub-millisecond revocation. Single-machine loopback microbenchmarks confirm low hook overhead: 2.7 $μ$s on the internal-allow path, 82/82 unauthorized pivot attempts blocked, and zero transient allows across 1.2 million connection attempts during policy reload.",
+    "citations": 0,
+    "url": "http://arxiv.org/abs/2604.16080v1",
+    "source": "arxiv"
+  },
+  {
+    "doi": "arXiv:2604.16072v1",
+    "title": "Identification of optimal history variables and corresponding hereditary laws in linear viscoelasticity",
+    "authors": [
+      "Ignacio Romero",
+      "Michael Ortiz"
+    ],
+    "year": 2026,
+    "journal": "arXiv",
+    "abstract": "We develop an operator-theoretic formulation of hereditary constitutive models and characterize optimal finite-rank internal-variable approximations in the sense of Kolmogorov $N$-widths. The history operator is shown to be compact under natural assumptions on the relaxation kernel, thereby admitting optimal low-rank approximations. The resulting reduced models inherit thermodynamic consistency, stability, and provable approximation bounds. An analysis clarifies the structural relation between hereditary representations and internal-variable theories and provides a rigorous basis for reduced-order modeling in computational mechanics. Selected numerical examples showcase optimal convergence of approximations with respect to rank and sampling.",
+    "citations": 0,
+    "url": "http://arxiv.org/abs/2604.16072v1",
+    "source": "arxiv"
+  },
+  {
+    "doi": "arXiv:2604.16062v1",
+    "title": "VLSF Decoding with Reliability Guarantees over Correlated Noncoherent Fading Channels",
+    "authors": [
+      "Guodong Sun",
+      "Samir M. Perlaza",
+      "Philippe Mary",
+      "Jean-Marie Gorce"
+    ],
+    "year": 2026,
+    "journal": "arXiv",
+    "abstract": "This paper studies reliability-guaranteed decoding for variable-length stop-feedback (VLSF) codes over correlated noncoherent fading channels. The decoding rule is based on the evolution of the information density associated with a given channel input-output realization. Due to channel memory, exact evaluation of this information density is intractable. To enable constructive decoding, computable finite-blocklength lower and upper bounds on the information density that hold uniformly over time along each input-output sequence are derived. The lower bound enables a stopping-time analysis for VLSF decoding and has an operational meaning, while the upper bound provides a reference for the relaxation gap, which is explicitly characterized. As a concrete application, the Gauss-Markov fading channel with Gaussian signaling is considered to numerically investigate the stopping-time distribution and the impact of fading correlation on decoding performance.",
+    "citations": 0,
+    "url": "http://arxiv.org/abs/2604.16062v1",
+    "source": "arxiv"
+  },
+  {
+    "doi": "arXiv:2604.16057v1",
+    "title": "Implicit Velocity Correction Schemes for Scale-Resolving Simulations of Incompressible Flow: Stability, Accuracy, and Performance",
+    "authors": [
+      "Henrik Wüstenberg",
+      "Alexandra Liosi",
+      "Spencer J. Sherwin",
+      "Joaquim Peiró",
+      "David Moxey"
+    ],
+    "year": 2026,
+    "journal": "arXiv",
+    "abstract": "Scale-resolving simulations of high Reynolds number incompressible flows are often limited by the Courant-Friedrichs-Lewy (CFL) stability restriction imposed by explicit time-stepping schemes, resulting in small time step sizes and long time-to-solution. In this work, we systematically compare two implicit formulations of the velocity correction scheme -- a linear-implicit approach and a sub-stepping (or semi-Lagrangian) method -- against a standard semi-implicit formulation within a high-order spectral/hp element framework. The schemes are assessed in terms of stability limits, temporal accuracy, and computational performance for implicit large-eddy simulation of the Imperial Front Wing benchmark, a complex high Reynolds number geometry with curved surfaces that imposes strict CFL constraints. Both implicit schemes extend the stability limit by up to two orders of magnitude in time step size. While increasing the cost per time step, they reduce the overall time-to-solution by up to a factor of eleven. Accuracy analysis shows that time step sizes up to twenty times larger than the explicit limit have only minor impact on resolving laminar-turbulent transition and key flow statistics. The results quantify the trade-off between stability, accuracy, and computational cost for implicit velocity correction schemes on complex geometries and provide guidance for selecting time integration strategies in large-scale scale-resolving simulations.",
+    "citations": 0,
+    "url": "http://arxiv.org/abs/2604.16057v1",
+    "source": "arxiv"
+  },
+  {
+    "doi": "arXiv:2604.16056v1",
+    "title": "AST: Adaptive, Seamless, and Training-Free Precise Speech Editing",
+    "authors": [
+      "Sihan Lv",
+      "Yechen Jin",
+      "Zhen Li",
+      "Jintao Chen",
+      "Jinshan Zhang"
+    ],
+    "year": 2026,
+    "journal": "arXiv",
+    "abstract": "Text-based speech editing aims to modify specific segments while preserving speaker identity and acoustic context. Existing methods rely on task-specific training, which incurs high data costs and struggles with temporal fidelity in unedited regions. Meanwhile, adapting Text-to-Speech (TTS) models often faces a trade-off between editing quality and consistency. To address these issues, we propose AST, an Adaptive, Seamless, and Training-free precise speech editing framework. Leveraging a pre-trained autoregressive TTS model, AST introduces Latent Recomposition to selectively stitch preserved source segments with newly synthesized targets. Furthermore, AST extends this latent manipulation to enable precise style editing for specific speech segments. To prevent artifacts at these edit boundaries, the framework incorporates Adaptive Weak Fact Guidance (AWFG). AWFG dynamically modulates a mel-space guidance signal, enforcing structural constraints only where necessary without disrupting the generative manifold. To fill the gap of publicly accessible benchmarks, we introduce LibriSpeech-Edit, a new and larger speech editing dataset. As existing metrics poorly evaluate temporal consistency in unedited regions, we propose Word-level Dynamic Time Warping (WDTW). Extensive experiments demonstrate that AST resolves the controllability-quality trade-off without extra training. Compared to the previous most temporally consistent baseline, AST improves consistency while reducing Word Error Rate by nearly 70%. Moreover, applying AST to a foundation TTS model reduces WDTW by 27%, achieving state-of-the-art speaker preservation and temporal fidelity.",
+    "citations": 0,
+    "url": "http://arxiv.org/abs/2604.16056v1",
+    "source": "arxiv"
+  },
+  {
+    "doi": "arXiv:2604.16054v1",
+    "title": "Mind's Eye: A Benchmark of Visual Abstraction, Transformation and Composition for Multimodal LLMs",
+    "authors": [
+      "Rohit Sinha",
+      "Aditya Kanade",
+      "Sai Srinivas Kancheti",
+      "Vineeth N Balasubramanian",
+      "Tanuja Ganu"
+    ],
+    "year": 2026,
+    "journal": "arXiv",
+    "abstract": "Multimodal large language models (MLLMs) have achieved impressive progress on vision language benchmarks, yet their capacity for visual cognitive and visuospatial reasoning remains less understood. We introduce \"Mind's Eye\", a multiple-choice benchmark of eight visuo-cognitive tasks inspired by classic human intelligence tests and organized under a novel \"A-R-T\" taxonomy: Abstraction, Relation, and Transformation. The tasks probe core processes of fluid intelligence such as pattern induction, analogical relation mapping, and mental transformation. We evaluate a diverse suite of closed-source and open-source MLLMs and compare their performance with human participants. Humans achieve 80% accuracy, while top performing MLLMs remain below 50%. Error analysis reveals failures in: (i) visual attention allocation, (ii) internal perceptual manipulation, and (iii) weak abstraction of underlying visual concepts. Our findings suggest that current MLLMs exhibit limited visuospatial reasoning capabilities, when compared with human participants, highlighting the need for more cognitively grounded evaluation frameworks.",
+    "citations": 0,
+    "url": "http://arxiv.org/abs/2604.16054v1",
+    "source": "arxiv"
+  },
+  {
+    "doi": "arXiv:2604.16053v1",
+    "title": "T-RBFT: A Scalable and Efficient Byzantine Consensus Based on Trusted Execution Environment for Consortium Blockchain",
+    "authors": [
+      "Wen Gao",
+      "Xinhong Hei",
+      "Yichuan Wang"
+    ],
+    "year": 2026,
+    "journal": "arXiv",
+    "abstract": "With the continuous expansion of blockchain application scenarios, consortium chains have raised higher performance and security requirements for consensus mechanisms. Unlike public blockchains, consortium chains typically implement an admission mechanism that restricts participation to trusted entities, ensuring that most replicas are honest and the number of faulty nodes remains small under normal circumstances. In such settings, conventional Byzantine Fault Tolerant (BFT) protocols, which are designed for worst-case adversarial scenarios, incur excessive message exchanges and computational overhead, thereby limiting performance and scalability. To address this issue, this paper proposes T-RBFT, a two-layer consensus mechanism inspired by network sharding and enhanced by the trusted execution environment (TEE). In T-RBFT, consensus nodes are first dynamically grouped based on their runtime characteristics. Then, inter-group consensus is achieved through a TEE-assisted BFT protocol, while each group internally reaches agreement using an improved Raft-based mechanism. Experimental evaluation shows that T-RBFT reduces communication overhead and latency, and achieves higher throughput compared to existing two-layer consensus protocols, providing a scalable and communication-efficient consensus protocol for permissioned blockchain networks.",
+    "citations": 0,
+    "url": "http://arxiv.org/abs/2604.16053v1",
+    "source": "arxiv"
+  },
+  {
+    "doi": "arXiv:2604.16052v1",
+    "title": "A Wasserstein Geometric Framework for Hebbian Plasticity",
+    "authors": [
+      "Ulrich Tan"
+    ],
+    "year": 2026,
+    "journal": "arXiv",
+    "abstract": "We introduce the Tan-HWG framework (Hebbian-Wasserstein-Geometry), a geometric theory of Hebbian plasticity in which memory states are modeled as probability measures evolving through Wasserstein minimizing movements. Hebbian learning rules are formalized as Hebbian energies satisfying a sequential stability condition, ensuring well-posed fiberwise JKO updates, optimal-transport realizations, and an energy descent inequality.\n  This variational structure induces a fundamental separation between internal and observable dynamics. Internal memory states evolve along Wasserstein geodesics in a latent curved space, while observable quantities, such as effective synaptic weights, arise through geometric projection maps into external spaces. Simplicial projections recover classical affine schemes (including exponential moving averages and mirror descent), while revealing synaptic competition and pruning as geometric consequences of mass redistribution. Hilbertian projections provide a geometric account of phase alignment and multi-scale coherence.\n  Classical neural networks appear as flat projections of this curved dynamics, while the framework naturally accommodates richer distributional representations, including structural weights and embedding memories, and their spectral extensions in complex internal spaces.\n  Under mild Lipschitz regularity assumptions, including a quasi-stationary \"sleep-mode\" regime, we establish the existence of continuous-time limit curves. This yields a variational formulation of memory consolidation as a perturbed Wasserstein gradient flow. The framework thus provides a unified geometric foundation for synaptic plasticity, representation dynamics, and context-dependent computation.",
+    "citations": 0,
+    "url": "http://arxiv.org/abs/2604.16052v1",
+    "source": "arxiv"
+  },
+  {
+    "doi": "arXiv:2604.16049v1",
+    "title": "Optimization of Sparse VLSF Codes for Short-Packet Transmission via Saddlepoint Methods",
+    "authors": [
+      "Guodong Sun",
+      "Samir M. Perlaza",
+      "Philippe Mary",
+      "Jean-Marie Gorce"
+    ],
+    "year": 2026,
+    "journal": "arXiv",
+    "abstract": "In this work, we present an optimization framework for sparse variable-length stop-feedback (VLSF) codes based on a saddlepoint approximation, which jointly optimizes the decoding configuration parameters. Thanks to the analytical tractability of the saddlepoint approximation, the framework enables efficient gradient-based optimization of such parameters for common memoryless channels, including the additive white Gaussian noise, binary symmetric, and binary erasure channels. We further propose a refined decoding rule that extends the conventional fixed-threshold rule and leads to a tighter achievability bound. Numerical results demonstrate that our framework provides near-optimal decoding configurations at low computational cost. Moreover, the results from our refined rule demonstrate that the fixed-threshold decoding rule is restrictive and that achievability bounds can be further tightened.",
+    "citations": 0,
+    "url": "http://arxiv.org/abs/2604.16049v1",
+    "source": "arxiv"
+  },
+  {
+    "doi": "arXiv:2604.16042v1",
+    "title": "Towards Intrinsic Interpretability of Large Language Models:A Survey of Design Principles and Architectures",
+    "authors": [
+      "Yutong Gao",
+      "Qinglin Meng",
+      "Yuan Zhou",
+      "Liangming Pan"
+    ],
+    "year": 2026,
+    "journal": "arXiv",
+    "abstract": "While Large Language Models (LLMs) have achieved strong performance across many NLP tasks, their opaque internal mechanisms hinder trustworthiness and safe deployment. Existing surveys in explainable AI largely focus on post-hoc explanation methods that interpret trained models through external approximations. In contrast, intrinsic interpretability, which builds transparency directly into model architectures and computations, has recently emerged as a promising alternative. This paper presents a systematic review of the recent advances in intrinsic interpretability for LLMs, categorizing existing approaches into five design paradigms: functional transparency, concept alignment, representational decomposability, explicit modularization, and latent sparsity induction. We further discuss open challenges and outline future research directions in this emerging field. The paper list is available at: https://github.com/PKU-PILLAR-Group/Survey-Intrinsic-Interpretability-of-LLMs.",
+    "citations": 0,
+    "url": "http://arxiv.org/abs/2604.16042v1",
+    "source": "arxiv"
+  },
+  {
+    "doi": "arXiv:2604.16037v1",
+    "title": "Stochasticity in Tokenisation Improves Robustness",
+    "authors": [
+      "Sophie Steger",
+      "Rui Li",
+      "Sofiane Ennadir",
+      "Anya Sims",
+      "Arno Solin"
+    ],
+    "year": 2026,
+    "journal": "arXiv",
+    "abstract": "The widespread adoption of large language models (LLMs) has increased concerns about their robustness. Vulnerabilities in perturbations of tokenisation of the input indicate that models trained with a deterministic canonical tokenisation can be brittle to adversarial attacks. Recent studies suggest that stochastic tokenisation can deliver internal representations that are less sensitive to perturbations. In this paper, we analyse how stochastic tokenisations affect robustness to adversarial attacks and random perturbations. We systematically study this over a range of learning regimes (pre-training, supervised fine-tuning, and in-context learning), data sets, and model architectures. We show that pre-training and fine-tuning with uniformly sampled stochastic tokenisations improve robustness to random and adversarial perturbations. Evaluating on uniformly sampled non-canonical tokenisations reduces the accuracy of a canonically trained Llama-1b model by 29.8%. We find that training with stochastic tokenisation preserves accuracy without increasing inference cost.",
+    "citations": 0,
+    "url": "http://arxiv.org/abs/2604.16037v1",
+    "source": "arxiv"
+  },
+  {
+    "doi": "arXiv:2604.16034v1",
+    "title": "Ranking XAI Methods for Head and Neck Cancer Outcome Prediction",
+    "authors": [
+      "Baoqiang Ma",
+      "Djennifer K. Madzia-Madzou",
+      "Rosa C. J. Kraaijveld",
+      "Jin Ouyang"
+    ],
+    "year": 2026,
+    "journal": "arXiv",
+    "abstract": "For head and neck cancer (HNC) patients, prognostic outcome prediction can support personalized treatment strategy selection. Improving prediction performance of HNC outcomes has been extensively explored by using advanced artificial intelligence (AI) techniques on PET/CT data. However, the interpretability of AI remains a critical obstacle for its clinical adoption. Unlike previous HNC studies that empirically selected explainable AI (XAI) techniques, we are the first to comprehensively evaluate and rank 13 XAI methods across 24 metrics, covering faithfulness, robustness, complexity and plausibility. Experimental results on the multi-center HECKTOR challenge dataset show large variations across evaluation aspects among different XAI methods, with Integrated Gradients (IG) and DeepLIFT (DL) consistently obtained high rankings for faithfulness, complexity and plausibility. This work highlights the importance of comprehensive XAI method evaluation and can be extended to other medical imaging tasks.",
+    "citations": 0,
+    "url": "http://arxiv.org/abs/2604.16034v1",
+    "source": "arxiv"
+  },
+  {
+    "doi": "arXiv:2604.16029v1",
+    "title": "Cut Your Losses! Learning to Prune Paths Early for Efficient Parallel Reasoning",
+    "authors": [
+      "Jiaxi Bi",
+      "Tongxu Luo",
+      "Wenyu Du",
+      "Zhengyang Tang",
+      "Benyou Wang"
+    ],
+    "year": 2026,
+    "journal": "arXiv",
+    "abstract": "Parallel reasoning enhances Large Reasoning Models (LRMs) but incurs prohibitive costs due to futile paths caused by early errors. To mitigate this, path pruning at the prefix level is essential, yet existing research remains fragmented without a standardized framework. In this work, we propose the first systematic taxonomy of path pruning, categorizing methods by their signal source (internal vs. external) and learnability (learnable vs. non-learnable). This classification reveals the unexplored potential of learnable internal methods, motivating our proposal of STOP (Super TOken for Pruning). Extensive evaluations across LRMs ranging from 1.5B to 20B parameters demonstrate that STOP achieves superior effectiveness and efficiency compared to existing baselines. Furthermore, we rigorously validate the scalability of STOP under varying compute budgets - for instance, boosting GPT-OSS-20B accuracy on AIME25 from 84% to nearly 90% under fixed compute budgets. Finally, we distill our findings into formalized empirical guidelines to facilitate optimal real-world deployment. Code, data and models are available at https://bijiaxihh.github.io/STOP",
+    "citations": 0,
+    "url": "http://arxiv.org/abs/2604.16029v1",
+    "source": "arxiv"
+  },
+  {
+    "doi": "arXiv:2604.16018v1",
+    "title": "Status and perspectives of ILDG",
+    "authors": [
+      "Christian Schmidt"
+    ],
+    "year": 2026,
+    "journal": "arXiv",
+    "abstract": "We discuss the status and progress of recent efforts to modernize the International Lattice Data Grid(ILDG).This includes activities of the metadata and middleware workinggroups concerning deployment and operation of crucial services (user management, metadata catalogues, file catalogues) and extensions of the metadata format, which have been tailored according to the needs of the large collaborations. We also report on developments and extensions that are planned to be addressed in the foreseeable future.",
+    "citations": 0,
+    "url": "http://arxiv.org/abs/2604.16018v1",
+    "source": "arxiv"
+  },
+  {
+    "doi": "arXiv:2604.16007v1",
+    "title": "MemExplorer: Navigating the Heterogeneous Memory Design Space for Agentic Inference NPUs",
+    "authors": [
+      "Haoran Wu",
+      "Zeyu Cao",
+      "Yao Lai",
+      "Binglei Lou",
+      "Jiayi Nie"
+    ],
+    "year": 2026,
+    "journal": "arXiv",
+    "abstract": "Emerging agentic LLM workloads are driving rapidly growing demand on both memory capacity and bandwidth, with different phases of inference (e.g., prefill and decode) imposing distinct requirements. Industry is responding by composing heterogeneous accelerators into single interconnected systems, as exemplified by NVIDIA's Vera Rubin platform, where each device brings its own memory architecture.\n  This heterogeneity is further compounded by a widening landscape of available memory technologies: high-density on-chip SRAM, HBM, LPDDR, GDDR, and emerging options such as high-bandwidth flash (HBF), each offering different capacity, bandwidth, and power trade-offs.\n  Identifying the right memory architecture for next-generation inference accelerators requires navigating a vast and rapidly evolving design space, in which the interplay between workload characteristics, NPU design dimensions, and memory system design remains largely underexplored.\n  To address this challenge, we present MemExplorer, a new memory system synthesizer for heterogeneous NPU systems. MemExplorer provides a unified abstraction for modeling diverse memory technologies across different hierarchy levels (e.g., on-chip and off-chip) and automatically determines an efficient heterogeneous memory system together with NPU design choices (e.g., matrix engine size) to balance throughput and power between prefilling and decoding devices in a multi-device NPU system.\n  Experimental results show that, under the same power budget for agentic workloads, MemExplorer achieves up to 2.3x higher energy efficiency than the baseline NPU and 3.23x higher than H100 in the prefill-only setting. Under equivalent performance targets in the decode setting, it further delivers up to 1.93x and 2.72x higher power efficiency over the baseline NPU and H100, respectively.",
+    "citations": 0,
+    "url": "http://arxiv.org/abs/2604.16007v1",
+    "source": "arxiv"
+  },
+  {
+    "doi": "arXiv:2604.16004v1",
+    "title": "AgentV-RL: Scaling Reward Modeling with Agentic Verifier",
+    "authors": [
+      "Jiazheng Zhang",
+      "Ziche Fu",
+      "Zhiheng Xi",
+      "Wenqing Jing",
+      "Mingxu Chai"
+    ],
+    "year": 2026,
+    "journal": "arXiv",
+    "abstract": "Verifiers have been demonstrated to enhance LLM reasoning via test-time scaling (TTS). Yet, they face significant challenges in complex domains. Error propagation from incorrect intermediate reasoning can lead to false positives for seemingly plausible solutions, while lacking external grounding makes verifiers unreliable on computation or knowledge-intensive tasks. To address these challenges, we propose Agentic Verifier, a framework that transforms reward modeling into a multi-turn, tool-augmented deliberative process. We introduce complementary forward and backward agents: one traces solutions from premises to conclusions, while the other re-checks conclusions against their underlying premises. This bidirectional process enables a comprehensive, reliable, and interpretable assessment of solutions. To facilitate practical deployment, we propose AgentV-RL. Through proactive exploration and reinforcement learning, the verifier autonomously interleaves tool-use with internal reasoning. Extensive experiments show that Agentic Verifier yields consistent performance gains under both parallel and sequential TTS. Notably, our 4B variant surpasses state-of-the-art ORMs by 25.2%, positioning it as a promising paradigm for agentic reward modeling.",
+    "citations": 0,
+    "url": "http://arxiv.org/abs/2604.16004v1",
+    "source": "arxiv"
+  }
+]

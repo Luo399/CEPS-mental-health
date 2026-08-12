@@ -1,0 +1,38 @@
+version: 1
+updated_at: "2026-03-30"
+entries:
+  - id: independent-review-before-complete
+    component: harness-work
+    kind: workflow-contract
+    assumption: "The implementer themselves cannot reliably catch all gaps in their own changes."
+    model_limit_addressed: "Self-evaluation bias"
+    retirement_signal: "A single-model run maintains defect detection rates equivalent to having independent review across multiple rounds."
+    validation: "Compare defect escape rates between Solo and Breezing."
+  - id: sprint-contract-before-worker
+    component: sprint-contract
+    kind: artifact
+    assumption: "Plans.md DoD alone leaves success criteria too coarse, making it easy for implementation and review to operate on different standards."
+    model_limit_addressed: "Insufficient goal resolution"
+    retirement_signal: "DoD alone achieves rework rates equivalent to having a contract."
+    validation: "Compare rework loop counts with and without a contract."
+  - id: structured-handoff-artifact
+    component: context-reset
+    kind: state-transfer
+    assumption: "In long-running executions, handoffs relying only on summaries lose the next action and failure reasons."
+    model_limit_addressed: "Context anxiety and handoff degradation"
+    retirement_signal: "Resume after compaction shows no increase in incomplete rates or re-explanation costs."
+    validation: "Track first-action latency after resume and insufficient handoff counts."
+  - id: runtime-review-profile
+    component: reviewer-profile-runtime
+    kind: evaluator
+    assumption: "Static review alone is insufficient to catch changes that break when executed."
+    model_limit_addressed: "Static analysis blind spots"
+    retirement_signal: "Defect escape rate stays sufficiently low without runtime execution."
+    validation: "Compare missed test-related defect counts with and without runtime profile execution."
+  - id: browser-review-profile
+    component: reviewer-profile-browser
+    kind: evaluator
+    assumption: "Visual layout issues and usability problems are difficult to judge from code diffs alone."
+    model_limit_addressed: "Visual and interaction quality blind spots"
+    retirement_signal: "Static + runtime alone keeps UI bug escape rate within acceptable range."
+    validation: "Measure post-release UI defect count before and after introducing the browser evaluator."

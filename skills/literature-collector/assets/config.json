@@ -1,0 +1,35 @@
+{
+  "api_keys": {
+    "elsevier": {
+      "api_key": "43734f3022020d6f29376bb637d70023",
+      "endpoint": "https://api.elsevier.com/content",
+      "rate_limit": 100
+    },
+    "wos": {
+      "api_key": "93cd9e7de9d29a24f854ea7598417e740f87b2aa",
+      "endpoint": "https://api.clarivate.com/apis/wos-starter/v1/",
+      "rate_limit": 100
+    },
+    "openalex": {
+      "endpoint": "https://api.openalex.org",
+      "rate_limit": 100
+    }
+  },
+  "search_settings": {
+    "default_years": 3,
+    "max_results_per_source": 100,
+    "request_timeout": 30,
+    "retry_attempts": 3,
+    "retry_delay": 2
+  },
+  "output_settings": {
+    "include_abstract": true,
+    "max_abstract_length": 500,
+    "sort_by": "citations"
+  },
+  "web_search": {
+    "enabled": true,
+    "max_results": 50,
+    "search_engines": ["google_scholar", "bing"]
+  }
+}

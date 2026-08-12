@@ -1,0 +1,2 @@
+﻿模型,cls_mean_edu_z,cls_mean_edu_z_se,ses_index,ses_index_se,cls_edu_x_ses_low,cls_edu_x_ses_low_se,cls_edu_x_ses_high,cls_edu_x_ses_high_se,R²,N,控制变量
+交互项模型,0.0302,(0.0240),-0.1993,(0.0218),-0.0534,(0.0256),0.0420,(0.0285),0.016,17171,是

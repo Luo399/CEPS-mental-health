@@ -1,0 +1,44 @@
+# Stata data files
+*.dta
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+
+# Environment
+.env
+.venv
+venv/
+env/
+
+# OS files
+desktop.ini
+Thumbs.db
+.DS_Store
+
+# Logs
+*.log
+*.smcl
+
+# Large files (>50MB)
+*.pdf
+*.png
+*.jpg
+*.jpeg
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Temp files
+tempfile/
+*.tmp
+
+# Stata log
+logfile/

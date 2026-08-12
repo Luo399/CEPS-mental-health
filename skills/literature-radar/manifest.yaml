@@ -1,0 +1,30 @@
+name: literature-radar
+version: 2.1.0
+
+always_load:
+  - static/core/journal-tiers.md
+  - static/core/search-rules.md
+
+axes:
+  workflow:
+    detect: |
+      映射用户需求到工作流。组合请求可同时加载多个。
+        topic-search       — 按研究主题检索顶刊文献
+        author-tracking    — 按作者/团队追踪顶刊发表记录
+        citation-trace     — 引文网络追踪（前向/后向引文）
+        journal-scan       — 扫描特定期刊的最新发表论文
+    values:
+      topic-search:       references/workflows/wf1-topic-search.md
+      author-tracking:    references/workflows/wf2-author-tracking.md
+      citation-trace:     references/workflows/wf3-citation-trace.md
+      journal-scan:       references/workflows/wf4-journal-scan.md
+    multi: true
+
+references:
+  on_demand:
+    - condition: 去重（WF 1, 2, 3 共用）
+      path: references/dedup-engine.md
+    - condition: 关键词扩展与多轮检索策略
+      path: references/search-strategy.md
+    - condition: HTML 报告渲染脚本
+      path: scripts/render_report.py

@@ -1,0 +1,26 @@
+{
+  "name": "claudecode-research-harness-workflow",
+  "version": "1.0",
+  "description": "Research Agent Harness — a controlled execution environment for reproducible empirical research agents. Enforces source-of-truth files, data integrity rules, evidence trails, and human review gates across the full research lifecycle.",
+  "author": {
+    "name": "Chen Zhu",
+    "url": "https://github.com/maxwell2732"
+  },
+  "homepage": "https://github.com/maxwell2732/claudecode-research-harness-workflow",
+  "repository": "https://github.com/maxwell2732/claudecode-research-harness-workflow",
+  "license": "MIT",
+  "keywords": [
+    "claude-code",
+    "plugin",
+    "empirical-research",
+    "reproducibility",
+    "econometrics",
+    "data-cleaning",
+    "replication",
+    "workflow"
+  ],
+  "skills": [
+    "./skills/"
+  ],
+  "outputStyles": "./output-styles/"
+}

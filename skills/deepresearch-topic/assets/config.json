@@ -1,0 +1,59 @@
+{
+  "api_keys": {
+    "semantic_scholar": {
+      "api_key": "",
+      "endpoint": "https://api.semanticscholar.org/graph/v1"
+    },
+    "elsevier": {
+      "api_key": "",
+      "endpoint": "https://api.elsevier.com/content"
+    }
+  },
+  "collection_settings": {
+    "default_years": 5,
+    "max_results_per_source": 200,
+    "min_citations_by_age": {
+      "1_year": 3,
+      "2_years": 8,
+      "3_years": 15,
+      "5_years": 25
+    },
+    "request_timeout": 30,
+    "retry_attempts": 3,
+    "retry_delay": 2
+  },
+  "analysis_settings": {
+    "lda_topics_range": [5, 15],
+    "cooccurrence_min_frequency": 2,
+    "momentum_weights": {
+      "growth_rate": 0.4,
+      "recent_acceleration": 0.3,
+      "citation_velocity": 0.3
+    },
+    "gap_thresholds": {
+      "centrality_percentile": 75,
+      "density_percentile": 25,
+      "method_ratio_threshold": 3.0,
+      "rising_sparse_paper_limit": 30,
+      "cross_lingual_ratio": 5.0,
+      "stagnation_ref_age": 8,
+      "practical_theory_ratio": 0.6
+    }
+  },
+  "evaluation_weights": {
+    "theoretical": 0.35,
+    "practical": 0.35,
+    "feasibility": 0.30
+  },
+  "topic_generation": {
+    "min_candidates": 8,
+    "max_candidates": 10,
+    "min_final_topics": 3,
+    "max_final_topics": 5
+  },
+  "output_settings": {
+    "include_abstract": true,
+    "max_abstract_length": 300,
+    "sort_topics_by": "composite_score"
+  }
+}

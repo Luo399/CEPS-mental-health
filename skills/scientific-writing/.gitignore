@@ -1,0 +1,48 @@
+# LaTeX build files
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.pdf
+*.synctex.gz
+*.toc
+*.lof
+*.lot
+*.fls
+*.fdb_latexmk
+*.run.xml
+
+# Draft versions
+drafts/*.aux
+drafts/*.bbl
+drafts/*.blg
+drafts/*.log
+drafts/*.out
+drafts/*.pdf
+drafts/*.synctex.gz
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Data files (large or sensitive)
+data/raw/*
+data/raw/.*
+!data/raw/.gitkeep
+data/processed/*
+data/processed/.*
+!data/processed/.gitkeep
+
+# Temporary files
+*.tmp
+*.temp

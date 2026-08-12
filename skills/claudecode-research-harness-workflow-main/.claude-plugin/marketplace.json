@@ -1,0 +1,35 @@
+{
+  "name": "claudecode-research-harness-workflow",
+  "metadata": {
+    "version": "1.0",
+    "description": "Marketplace entry for distributing and installing claudecode-research-harness-workflow as a single plugin."
+  },
+  "owner": {
+    "name": "Chen Zhu"
+  },
+  "plugins": [
+    {
+      "name": "claudecode-research-harness-workflow",
+      "version": "1.0",
+      "source": "./",
+      "description": "Research Agent Harness — a controlled execution environment for reproducible empirical research agents.",
+      "author": {
+        "name": "Chen Zhu",
+        "url": "https://github.com/maxwell2732"
+      },
+      "homepage": "https://github.com/maxwell2732/claudecode-research-harness-workflow",
+      "repository": "https://github.com/maxwell2732/claudecode-research-harness-workflow",
+      "license": "MIT",
+      "keywords": [
+        "claude-code",
+        "plugin",
+        "empirical-research",
+        "reproducibility",
+        "econometrics",
+        "workflow"
+      ],
+      "category": "productivity",
+      "strict": true
+    }
+  ]
+}

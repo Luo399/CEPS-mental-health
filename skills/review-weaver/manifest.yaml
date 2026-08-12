@@ -1,0 +1,36 @@
+name: review-weaver
+version: 2.1.0
+
+always_load:
+  - static/core/stance.md
+  - static/core/workflow.md
+  - static/core/output-format.md
+
+axes:
+  review_type:
+    detect: |
+      hypothesis=用户提供假设, topic=主题无假设, method=方法学比较.
+    values:
+      hypothesis:  static/fragments/review_type/hypothesis.md
+      topic:       static/fragments/review_type/topic.md
+      method:      static/fragments/review_type/method.md
+    default: hypothesis
+    multi: false
+
+  target_style:
+    detect: |
+      ssci=英文/SSCI/国际期刊, cn-core=中文核心(默认).
+    values:
+      cn-core:  static/fragments/target_style/cn-core.md
+      ssci:     static/fragments/target_style/ssci.md
+    default: cn-core
+    multi: false
+
+references:
+  on_demand:
+    - condition: 段落流检查
+      path: references/paragraph-flow.md
+    - condition: 分歧分析深度方法论
+      path: references/disagreement-analysis.md
+    - condition: 推文模板
+      path: references/prompt-templates.md
