@@ -264,7 +264,7 @@ new_vars = [
   'edu_max_years_z', 'econ_status_z', 'hukou_type_z',
   'ses_index', 'ses_tercile', 'ses_low', 'ses_high',
   # 班级层面
-  'cls_mean_mental', 'cls_gini_mental',
+  'cls_mean_mental', 'cls_sd_mental',
   'cls_mean_edu_x_ses', 'cls_mean_edu_x_ses_low',
   # 反转变量
   'b2301_inv', 'b2302_inv', 'b2303_inv', 'b2304_inv', 'b2305_inv',
@@ -297,7 +297,7 @@ key_vars = [
   'gender', 'hukou_type', 'nationality', 'grade', 'yn_single_child',
   'age', 'cls_ave_economic',
   # 班级层面
-  'cls_mean_mental', 'cls_gini_mental',
+  'cls_mean_mental', 'cls_sd_mental',
 ]
 print("\n   关键分析变量:")
 for v in key_vars:
